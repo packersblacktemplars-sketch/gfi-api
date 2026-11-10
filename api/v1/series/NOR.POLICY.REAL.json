@@ -45,7 +45,7 @@
  },
  "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window.",
  "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:15:46+00:00",
+ "retrieved_at": "2026-11-10T17:17:45+00:00",
  "citation": "Global Financial Information, \"Norway real policy rate\" (NOR.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.POLICY.REAL.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {
