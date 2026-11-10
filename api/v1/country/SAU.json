@@ -6,7 +6,7 @@
   "currency_code": "SAR"
  },
  "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:14:18+00:00",
+ "retrieved_at": "2026-11-10T17:15:46+00:00",
  "blocks": {
   "state": {
    "status": "ok",
@@ -24,7 +24,7 @@
      "comparability": null,
      "prior_value": null,
      "prior_as_of": null,
-     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.RATE"
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.RATE.json"
     },
     {
      "series_id": "SAU.POLICY.REAL",
@@ -39,7 +39,7 @@
      "comparability": "comparable",
      "prior_value": null,
      "prior_as_of": null,
-     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.REAL"
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.REAL.json"
     },
     {
      "series_id": "SAU.PRICE.CPI_YOY",
@@ -54,7 +54,7 @@
      "comparability": null,
      "prior_value": null,
      "prior_as_of": null,
-     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.PRICE.CPI_YOY"
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.PRICE.CPI_YOY.json"
     },
     {
      "series_id": "SAU.FISCAL.DEBT_GDP",
@@ -69,7 +69,7 @@
      "comparability": null,
      "prior_value": null,
      "prior_as_of": null,
-     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.FISCAL.DEBT_GDP"
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.FISCAL.DEBT_GDP.json"
     },
     {
      "series_id": "SAU.MACRO.GDP_GROWTH",
@@ -84,7 +84,7 @@
      "comparability": null,
      "prior_value": null,
      "prior_as_of": null,
-     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.MACRO.GDP_GROWTH"
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.MACRO.GDP_GROWTH.json"
     }
    ]
   },
@@ -119,6 +119,6 @@
    "cadence": "daily to monthly, per central bank"
   }
  ],
- "citation": "Global Financial Information, country packet \"Saudi Arabia\", data as of 2026-11-09, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/SAU",
+ "citation": "Global Financial Information, country packet \"Saudi Arabia\", data as of 2026-11-09, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/SAU.json",
  "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/SAU.json"
 }

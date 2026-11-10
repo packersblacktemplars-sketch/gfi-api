@@ -6,7 +6,7 @@
   "currency_code": "EUR"
  },
  "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:14:18+00:00",
+ "retrieved_at": "2026-11-10T17:15:46+00:00",
  "blocks": {
   "state": {
    "status": "ok",
@@ -24,7 +24,7 @@
      "comparability": null,
      "prior_value": null,
      "prior_as_of": null,
-     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.RATE"
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.RATE.json"
     },
     {
      "series_id": "EMU.POLICY.REAL",
@@ -39,7 +39,7 @@
      "comparability": "comparable",
      "prior_value": null,
      "prior_as_of": null,
-     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.REAL"
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.REAL.json"
     },
     {
      "series_id": "EMU.PRICE.CPI_YOY",
@@ -54,7 +54,7 @@
      "comparability": null,
      "prior_value": null,
      "prior_as_of": null,
-     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.PRICE.CPI_YOY"
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.PRICE.CPI_YOY.json"
     }
    ]
   },
@@ -89,6 +89,6 @@
    "cadence": "daily to monthly, per central bank"
   }
  ],
- "citation": "Global Financial Information, country packet \"Euro Area\", data as of 2026-11-09, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/EMU",
+ "citation": "Global Financial Information, country packet \"Euro Area\", data as of 2026-11-09, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/EMU.json",
  "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/EMU.json"
 }

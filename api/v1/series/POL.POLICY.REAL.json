@@ -45,8 +45,8 @@
  },
  "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window.",
  "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:14:18+00:00",
- "citation": "Global Financial Information, \"Poland real policy rate\" (POL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.POLICY.REAL",
+ "retrieved_at": "2026-11-10T17:15:46+00:00",
+ "citation": "Global Financial Information, \"Poland real policy rate\" (POL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.POLICY.REAL.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {
   "gated": true,
