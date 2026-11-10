@@ -31,6 +31,6 @@
  "base": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1",
  "mirror": "https://packersblacktemplars-sketch.github.io/gfi-api/api/v1",
  "serving": "static",
- "generated_at": "2026-11-10T17:06:55+00:00",
+ "generated_at": "2026-11-10T17:14:18+00:00",
  "note": "Free to cite. Each route is a static file with the same shape the live function returns; history depth, revision records, bulk export and the rules layer are licensed."
 }

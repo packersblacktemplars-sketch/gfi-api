@@ -38,7 +38,7 @@
  },
  "definition": "Consumer price inflation, 12-month percent change, annual national figure.",
  "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:06:55+00:00",
+ "retrieved_at": "2026-11-10T17:14:18+00:00",
  "citation": "Global Financial Information, \"Canada consumer price inflation\" (CAN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.PRICE.CPI_YOY",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {

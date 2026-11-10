@@ -45,7 +45,7 @@
  },
  "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window.",
  "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:06:55+00:00",
+ "retrieved_at": "2026-11-10T17:14:18+00:00",
  "citation": "Global Financial Information, \"Australia real policy rate\" (AUS.POLICY.REAL), data as of 2026-10-29, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.POLICY.REAL",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {
