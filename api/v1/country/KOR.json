@@ -1,0 +1,124 @@
+{
+ "country": {
+  "name": "South Korea",
+  "iso3": "KOR",
+  "region": "Asia-Pacific",
+  "currency_code": "KRW"
+ },
+ "data_as_of": "2026-11-09",
+ "retrieved_at": "2026-11-10T17:04:00+00:00",
+ "blocks": {
+  "state": {
+   "status": "ok",
+   "cells": [
+    {
+     "series_id": "KOR.POLICY.RATE",
+     "label": "Policy rate",
+     "value": 3.0,
+     "unit": "percent",
+     "as_of": "2026-10-08",
+     "period": null,
+     "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
+     "source_status": "secondary_compilation",
+     "coverage_tier": "secondary",
+     "comparability": null,
+     "prior_value": null,
+     "prior_as_of": null,
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.POLICY.RATE"
+    },
+    {
+     "series_id": "KOR.POLICY.REAL",
+     "label": "Real policy rate",
+     "value": 0.88,
+     "unit": "percent",
+     "as_of": "2026-10-08",
+     "period": "2025",
+     "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
+     "source_status": "derived_from_unverified_pair",
+     "coverage_tier": "derived",
+     "comparability": "comparable",
+     "prior_value": null,
+     "prior_as_of": null,
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.POLICY.REAL"
+    },
+    {
+     "series_id": "KOR.PRICE.CPI_YOY",
+     "label": "Inflation",
+     "value": 2.12,
+     "unit": "percent",
+     "as_of": null,
+     "period": "2025",
+     "source": null,
+     "source_status": "unresolved",
+     "coverage_tier": "indicator",
+     "comparability": null,
+     "prior_value": null,
+     "prior_as_of": null,
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.PRICE.CPI_YOY"
+    },
+    {
+     "series_id": "KOR.FISCAL.DEBT_GDP",
+     "label": "Debt to GDP",
+     "value": 54.4,
+     "unit": "percent of GDP",
+     "as_of": null,
+     "period": "2026",
+     "source": null,
+     "source_status": "unresolved",
+     "coverage_tier": "indicator",
+     "comparability": null,
+     "prior_value": null,
+     "prior_as_of": null,
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.FISCAL.DEBT_GDP"
+    },
+    {
+     "series_id": "KOR.MACRO.GDP_GROWTH",
+     "label": "Real GDP growth",
+     "value": 1.9,
+     "unit": "percent",
+     "as_of": null,
+     "period": "2026",
+     "source": null,
+     "source_status": "unresolved",
+     "coverage_tier": "indicator",
+     "comparability": null,
+     "prior_value": null,
+     "prior_as_of": null,
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.MACRO.GDP_GROWTH"
+    }
+   ]
+  },
+  "next_meeting_date": null,
+  "shifts": {
+   "status": "not_collected",
+   "note": "Populated from the change store; no verified shift rows for this country yet. An empty block is reported, never filled."
+  },
+  "rules": {
+   "gated": true,
+   "item_count": 8,
+   "upgrade": "https://globalfinancialinfo.info/membership",
+   "note": "Eight statutory thresholds per country: deposit insurance, guarantee fund, contribution ceiling, pension guarantee, cooling-off days, arrears, small claims, cash limits."
+  },
+  "people": {
+   "status": "not_collected",
+   "note": "Demographics land with the Nov 13 to 21 collection run."
+  },
+  "places": {
+   "status": "not_collected"
+  },
+  "news": {
+   "status": "not_collected",
+   "note": "Primary-source registry (agency, financial daily, central bank press room, statistics office, gazette) lands with the Nov 13 to 21 run."
+  }
+ },
+ "sources": [
+  {
+   "name": "BIS WS_CBPOL",
+   "tier": "secondary",
+   "url": "https://www.bis.org/statistics/cbpol.htm",
+   "cadence": "daily to monthly, per central bank"
+  }
+ ],
+ "citation": "Global Financial Information, country packet \"South Korea\", data as of 2026-11-09, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/KOR",
+ "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/KOR.json"
+}

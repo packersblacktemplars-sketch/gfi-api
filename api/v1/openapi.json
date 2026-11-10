@@ -1,0 +1,131 @@
+{
+ "openapi": "3.0.3",
+ "info": {
+  "title": "Global Financial Information data API",
+  "version": "1.0.0",
+  "description": "Free to cite, paid to compute with. Every series level with unit, as-of date, source status and a finished citation string, no key required. History depth, revision records, bulk export and the statutory rules layer are licensed.",
+  "license": {
+   "name": "CC BY 4.0 (free), commercial licence (paid)",
+   "url": "https://globalfinancialinfo.info/licence"
+  },
+  "x-generated": "2026-11-10T17:03:59+00:00"
+ },
+ "servers": [
+  {
+   "url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1",
+   "description": "Free tier, static, no key required"
+  }
+ ],
+ "security": [],
+ "paths": {
+  "/index.json": {
+   "get": {
+    "summary": "Service description: counts, data_as_of, tier, static endpoint map",
+    "responses": {
+     "200": {
+      "description": "counts, tier, limits, endpoint map",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/catalog.json": {
+   "get": {
+    "summary": "All servable series with level, unit, as-of, source status and citation",
+    "responses": {
+     "200": {
+      "description": "one page of series",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/CatalogPage"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/series/{series_id}.json": {
+   "get": {
+    "summary": "One series: latest, prior, change, definition, citation",
+    "responses": {
+     "200": {
+      "description": "series with latest, observations and citation",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Series"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "unknown series",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "series_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "example": "USA.POLICY.RATE"
+     }
+    ]
+   }
+  },
+  "/country/{iso3}.json": {
+   "get": {
+    "summary": "Country packet: standing state, shifts, news, sources, citation",
+    "responses": {
+     "200": {
+      "description": "country blocks, sources, citation",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Packet"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "unknown country",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/changes.json": {
+   "get": {
+    "summary": "Verified shift rows only; an empty set is declared, never zero",
+    "responses": {
+     "200": {
+      "description": "verified rows, or status not_collected with an empty set"
+     }
+    }
+   }
+  }
+ }
+}

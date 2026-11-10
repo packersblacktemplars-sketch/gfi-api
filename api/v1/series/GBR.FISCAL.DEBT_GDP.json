@@ -1,0 +1,49 @@
+{
+ "series_id": "GBR.FISCAL.DEBT_GDP",
+ "subject": "United Kingdom general government debt",
+ "country": {
+  "name": "United Kingdom",
+  "iso3": "GBR"
+ },
+ "family": "FISCAL",
+ "measure": "DEBT_GDP",
+ "unit": "percent of GDP",
+ "coverage_tier": "indicator",
+ "source_status": "unresolved",
+ "review_required": false,
+ "latest": {
+  "value": 103.6,
+  "as_of": null,
+  "period": "2026",
+  "granularity": "annual",
+  "is_estimate": true,
+  "source": null,
+  "source_url": null,
+  "source_status": "unresolved"
+ },
+ "prior": null,
+ "change": null,
+ "observations": [
+  {
+   "date": null,
+   "value": 103.6,
+   "status": "observed"
+  }
+ ],
+ "history": {
+  "status": "pending_bulk_load",
+  "window_returned": 1,
+  "window_limit": 24,
+  "earliest_available": null
+ },
+ "definition": "General government gross debt as a share of GDP.",
+ "data_as_of": "2026-11-09",
+ "retrieved_at": "2026-11-10T17:04:00+00:00",
+ "citation": "Global Financial Information, \"United Kingdom general government debt\" (GBR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.FISCAL.DEBT_GDP",
+ "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
+ "revisions": {
+  "gated": true,
+  "upgrade": "https://globalfinancialinfo.info/membership",
+  "note": "Revision history, changelog ids and the full observation window are on the paid tiers."
+ }
+}

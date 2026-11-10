@@ -1,0 +1,49 @@
+{
+ "series_id": "CZE.POLICY.RATE",
+ "subject": "Czech Republic policy rate",
+ "country": {
+  "name": "Czech Republic",
+  "iso3": "CZE"
+ },
+ "family": "POLICY",
+ "measure": "RATE",
+ "unit": "percent",
+ "coverage_tier": "secondary",
+ "source_status": "secondary_compilation",
+ "review_required": false,
+ "latest": {
+  "value": 3.75,
+  "as_of": "2026-11-02",
+  "period": null,
+  "granularity": "event",
+  "is_estimate": false,
+  "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
+  "source_url": "https://stats.bis.org/statx/srs/table/c1",
+  "source_status": "secondary_compilation"
+ },
+ "prior": null,
+ "change": null,
+ "observations": [
+  {
+   "date": "2026-11-02",
+   "value": 3.75,
+   "status": "observed"
+  }
+ ],
+ "history": {
+  "status": "pending_bulk_load",
+  "window_returned": 1,
+  "window_limit": 24,
+  "earliest_available": null
+ },
+ "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate.",
+ "data_as_of": "2026-11-09",
+ "retrieved_at": "2026-11-10T17:04:00+00:00",
+ "citation": "Global Financial Information, \"Czech Republic policy rate\" (CZE.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.POLICY.RATE",
+ "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
+ "revisions": {
+  "gated": true,
+  "upgrade": "https://globalfinancialinfo.info/membership",
+  "note": "Revision history, changelog ids and the full observation window are on the paid tiers."
+ }
+}

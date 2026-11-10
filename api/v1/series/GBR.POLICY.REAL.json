@@ -1,0 +1,56 @@
+{
+ "series_id": "GBR.POLICY.REAL",
+ "subject": "United Kingdom real policy rate",
+ "country": {
+  "name": "United Kingdom",
+  "iso3": "GBR"
+ },
+ "family": "POLICY",
+ "measure": "REAL",
+ "unit": "percent",
+ "coverage_tier": "derived",
+ "source_status": "derived_from_unverified_pair",
+ "review_required": false,
+ "latest": {
+  "value": -0.13,
+  "as_of": "2026-11-02",
+  "period": "2025",
+  "granularity": "derived",
+  "is_estimate": false,
+  "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
+  "source_url": "https://stats.bis.org/statx/srs/table/c1",
+  "source_status": "derived_from_unverified_pair",
+  "inputs": {
+   "policy_rate_date": "2026-11-02",
+   "inflation_period": "2025"
+  },
+  "comparability": "comparable",
+  "comparability_note": "Policy rate less the annual inflation figure.",
+  "review_required": false
+ },
+ "prior": null,
+ "change": null,
+ "observations": [
+  {
+   "date": "2026-11-02",
+   "value": -0.13,
+   "status": "observed"
+  }
+ ],
+ "history": {
+  "status": "pending_bulk_load",
+  "window_returned": 1,
+  "window_limit": 24,
+  "earliest_available": null
+ },
+ "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window.",
+ "data_as_of": "2026-11-09",
+ "retrieved_at": "2026-11-10T17:04:00+00:00",
+ "citation": "Global Financial Information, \"United Kingdom real policy rate\" (GBR.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.POLICY.REAL",
+ "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
+ "revisions": {
+  "gated": true,
+  "upgrade": "https://globalfinancialinfo.info/membership",
+  "note": "Revision history, changelog ids and the full observation window are on the paid tiers."
+ }
+}

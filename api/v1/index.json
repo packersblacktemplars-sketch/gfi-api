@@ -1,0 +1,35 @@
+{
+ "name": "Global Financial Information data API",
+ "version": "v1",
+ "data_as_of": "2026-11-09",
+ "counts": {
+  "series": 191,
+  "countries": 39,
+  "unresolved_source": 115,
+  "stale_input_pairs": 3,
+  "review_required": 3
+ },
+ "tier": "free",
+ "rate_limit_per_day": 1000,
+ "endpoints": {
+  "index": "index.json",
+  "catalog": "catalog.json",
+  "series": "series/{series_id}.json",
+  "country": "country/{iso3}.json",
+  "changes": "changes.json",
+  "openapi": "openapi.json",
+  "bulk": "paid: whole-family CSV, licensed"
+ },
+ "auth": "Optional X-API-Key header. Anonymous tier is rate limited, not gated.",
+ "errors": {
+  "400": "bad_request",
+  "401": "invalid_key",
+  "402": "tier_required",
+  "404": "unknown_series",
+  "429": "rate_limited"
+ },
+ "base": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1",
+ "serving": "static",
+ "generated_at": "2026-11-10T17:03:59+00:00",
+ "note": "Free to cite. Each route is a static file with the same shape the live function returns; history depth, revision records, bulk export and the rules layer are licensed."
+}
