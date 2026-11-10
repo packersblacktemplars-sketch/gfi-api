@@ -1,5 +1,5 @@
 {
- "openapi": "3.0.3",
+ "openapi": "3.1.0",
  "info": {
   "title": "Global Financial Information data API",
   "version": "1.0.0",
@@ -8,7 +8,7 @@
    "name": "CC BY 4.0 (free), commercial licence (paid)",
    "url": "https://globalfinancialinfo.info/licence"
   },
-  "x-generated": "2026-11-10T17:21:31+00:00"
+  "x-generated": "2026-11-10T17:23:58+00:00"
  },
  "servers": [
   {
@@ -21,6 +21,328 @@
   }
  ],
  "security": [],
+ "components": {
+  "schemas": {
+   "Observation": {
+    "type": "object",
+    "required": [
+     "value",
+     "source_status",
+     "coverage_tier"
+    ],
+    "properties": {
+     "value": {
+      "type": "number"
+     },
+     "as_of": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "observation date; null for annual figures"
+     },
+     "period": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "YYYY when granularity is annual"
+     },
+     "granularity": {
+      "type": "string",
+      "enum": [
+       "event",
+       "annual",
+       "derived"
+      ]
+     },
+     "is_estimate": {
+      "type": "boolean"
+     },
+     "source": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_status": {
+      "type": "string",
+      "enum": [
+       "secondary_compilation",
+       "derived",
+       "derived_from_unverified_pair",
+       "unresolved"
+      ]
+     },
+     "inputs": {
+      "type": "object"
+     },
+     "comparability": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "enum": [
+       "comparable",
+       "stale_inputs",
+       "not_comparable",
+       null
+      ]
+     },
+     "comparability_note": {
+      "type": "string"
+     },
+     "review_required": {
+      "type": "boolean"
+     }
+    }
+   },
+   "Series": {
+    "type": "object",
+    "properties": {
+     "series_id": {
+      "type": "string",
+      "example": "USA.POLICY.RATE"
+     },
+     "subject": {
+      "type": "string"
+     },
+     "country": {
+      "type": "object",
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "iso3": {
+        "type": "string"
+       }
+      }
+     },
+     "family": {
+      "type": "string"
+     },
+     "measure": {
+      "type": "string"
+     },
+     "unit": {
+      "type": "string"
+     },
+     "coverage_tier": {
+      "type": "string"
+     },
+     "source_status": {
+      "type": "string"
+     },
+     "review_required": {
+      "type": "boolean"
+     },
+     "latest": {
+      "$ref": "#/components/schemas/Observation"
+     },
+     "prior": {
+      "type": [
+       "object",
+       "null"
+      ]
+     },
+     "change": {
+      "type": [
+       "object",
+       "null"
+      ]
+     },
+     "observations": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "date": {
+         "type": "string"
+        },
+        "value": {
+         "type": "number"
+        },
+        "status": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "history": {
+      "type": "object",
+      "properties": {
+       "status": {
+        "type": "string"
+       },
+       "window_returned": {
+        "type": "integer"
+       },
+       "window_limit": {
+        "type": "integer"
+       }
+      }
+     },
+     "revisions": {
+      "type": "object",
+      "properties": {
+       "gated": {
+        "type": "boolean"
+       },
+       "count": {
+        "type": "integer"
+       },
+       "records": {
+        "type": "array",
+        "items": {
+         "type": "object"
+        }
+       },
+       "upgrade": {
+        "type": "string"
+       }
+      }
+     },
+     "definition": {
+      "type": "string"
+     },
+     "data_as_of": {
+      "type": "string"
+     },
+     "retrieved_at": {
+      "type": "string"
+     },
+     "citation": {
+      "type": "string"
+     },
+     "license": {
+      "type": "string"
+     }
+    }
+   },
+   "CatalogPage": {
+    "type": "object",
+    "properties": {
+     "total": {
+      "type": "integer"
+     },
+     "returned": {
+      "type": "integer"
+     },
+     "cursor": {
+      "type": "integer"
+     },
+     "has_more": {
+      "type": "boolean"
+     },
+     "data_as_of": {
+      "type": "string"
+     },
+     "series": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "series_id": {
+         "type": "string"
+        },
+        "subject": {
+         "type": "string"
+        },
+        "iso3": {
+         "type": "string"
+        },
+        "family": {
+         "type": "string"
+        },
+        "unit": {
+         "type": "string"
+        },
+        "value": {
+         "type": "number"
+        },
+        "as_of": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "coverage_tier": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   },
+   "Packet": {
+    "type": "object",
+    "properties": {
+     "country": {
+      "type": "object"
+     },
+     "data_as_of": {
+      "type": "string"
+     },
+     "blocks": {
+      "type": "object",
+      "description": "state, shifts, rules, people, places, news. Only state is populated today. A gated block returns {gated:true}; an uncollected block returns status:not_collected.",
+      "properties": {
+       "state": {
+        "type": "object"
+       },
+       "shifts": {
+        "type": "object"
+       },
+       "rules": {
+        "type": "object"
+       },
+       "people": {
+        "type": "object"
+       },
+       "places": {
+        "type": "object"
+       },
+       "news": {
+        "type": "object"
+       }
+      }
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "object"
+      }
+     },
+     "citation": {
+      "type": "string"
+     }
+    }
+   },
+   "Error": {
+    "type": "object",
+    "properties": {
+     "error": {
+      "type": "string"
+     },
+     "message": {
+      "type": "string"
+     },
+     "docs": {
+      "type": "string"
+     },
+     "upgrade": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ },
  "paths": {
   "/index.json": {
    "get": {
@@ -118,7 +440,19 @@
        }
       }
      }
-    }
+    },
+    "parameters": [
+     {
+      "name": "iso3",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "pattern": "^[A-Z]{3}$"
+      },
+      "example": "ZAF"
+     }
+    ]
    }
   },
   "/changes.json": {

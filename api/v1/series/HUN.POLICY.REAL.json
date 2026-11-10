@@ -45,7 +45,7 @@
  },
  "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window.",
  "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:21:32+00:00",
+ "retrieved_at": "2026-11-10T17:23:58+00:00",
  "citation": "Global Financial Information, \"Hungary real policy rate\" (HUN.POLICY.REAL), data as of 2026-10-28, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.POLICY.REAL.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {
