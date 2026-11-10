@@ -8,12 +8,16 @@
    "name": "CC BY 4.0 (free), commercial licence (paid)",
    "url": "https://globalfinancialinfo.info/licence"
   },
-  "x-generated": "2026-11-10T17:03:59+00:00"
+  "x-generated": "2026-11-10T17:06:36+00:00"
  },
  "servers": [
   {
    "url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1",
-   "description": "Free tier, static, no key required"
+   "description": "Free tier, no key required. Branded base. The host serves every JSON file as text/plain; the body is JSON."
+  },
+  {
+   "url": "https://packersblacktemplars-sketch.github.io/gfi-api/api/v1",
+   "description": "Identical bytes, served as application/json, for clients that validate Content-Type."
   }
  ],
  "security": [],

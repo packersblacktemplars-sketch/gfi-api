@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GFI data API v1: every number carries a source and a date</title>
+<meta name="description" content="Free, keyless access to 191 economic series across 39 countries. Level, unit, as-of date, source status and a finished citation string for every series.">
+<style>
+  :root {
+    --ink:#14171a; --muted:#5a636b; --rule:#d8dce0; --canvas:#fbfaf7; --panel:#ffffff;
+    --accent:#0f6b4f; --accent-soft:#e7f2ec; --warn:#8a5a12; --warn-soft:#fbf2e2;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink:#e9ecee; --muted:#9aa4ac; --rule:#2c3237; --canvas:#111417; --panel:#171b1f;
+      --accent:#5fd3a6; --accent-soft:#16281f; --warn:#e0b168; --warn-soft:#241d12;
+    }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--canvas); color:var(--ink); font-family:var(--sans);
+         line-height:1.55; font-size:16px; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:920px; margin:0 auto; padding:48px 24px 72px; }
+  .kicker { font-family:var(--mono); font-size:12px; letter-spacing:.14em;
+             text-transform:uppercase; color:var(--accent); margin:0 0 14px; }
+  h1 { font-family:var(--serif); font-weight:400; font-size:clamp(28px,4.4vw,44px);
+        line-height:1.15; margin:0 0 18px; letter-spacing:-.01em; }
+  .lede { font-size:18px; color:var(--muted); max-width:64ch; margin:0 0 32px; }
+  .strip { display:flex; flex-wrap:wrap; gap:0; border-top:1px solid var(--rule);
+            border-bottom:1px solid var(--rule); margin:0 0 40px; }
+  .strip div { flex:1 1 120px; padding:14px 0 14px 16px; border-left:1px solid var(--rule); }
+  .strip div:first-child { border-left:0; padding-left:0; }
+  .strip b { display:block; font-family:var(--mono); font-size:17px;
+              font-variant-numeric:tabular-nums; }
+  .strip span { font-size:11.5px; text-transform:uppercase; letter-spacing:.08em;
+                 color:var(--muted); }
+  h2 { font-family:var(--serif); font-weight:400; font-size:22px; margin:44px 0 14px;
+        letter-spacing:-.01em; }
+  p { max-width:68ch; }
+  code, pre { font-family:var(--mono); }
+  pre { background:var(--panel); border:1px solid var(--rule); border-left:3px solid var(--accent);
+         padding:16px 18px; overflow-x:auto; font-size:13px; line-height:1.6; margin:0 0 10px; }
+  code.inline { background:var(--accent-soft); color:var(--accent); padding:1px 5px;
+                 border-radius:3px; font-size:13.5px; }
+  table { width:100%; border-collapse:collapse; margin:6px 0 4px; font-size:14.5px; }
+  th { text-align:left; font-size:11.5px; text-transform:uppercase; letter-spacing:.08em;
+        color:var(--muted); font-weight:600; padding:0 14px 8px 0;
+        border-bottom:1px solid var(--rule); }
+  td { padding:11px 14px 11px 0; border-bottom:1px solid var(--rule); vertical-align:top; }
+  td:last-child, th:last-child { padding-right:0; }
+  td.path { font-family:var(--mono); font-size:13px; white-space:nowrap; }
+  a { color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; }
+  a:hover { border-bottom-color:var(--accent); }
+  ol.rules { list-style:none; counter-reset:r; padding:0; margin:8px 0 0; }
+  ol.rules li { counter-increment:r; position:relative; padding:0 0 20px 44px;
+                 max-width:72ch; }
+  ol.rules li::before { content:counter(r); position:absolute; left:0; top:1px;
+    font-family:var(--mono); font-size:12px; color:var(--accent); width:26px; height:26px;
+    border:1px solid var(--rule); border-radius:50%; display:grid; place-items:center; }
+  ol.rules b { display:block; margin-bottom:2px; }
+  .note { background:var(--warn-soft); border:1px solid var(--rule);
+           border-left:3px solid var(--warn); padding:14px 18px; font-size:14.5px;
+           margin:18px 0 0; max-width:72ch; }
+  .note b { color:var(--warn); }
+  blockquote { margin:0; padding:16px 18px; background:var(--panel);
+                border:1px solid var(--rule); font-family:var(--serif); font-size:15.5px; }
+  .cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:28px; }
+  footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--rule);
+            font-size:13px; color:var(--muted); }
+  footer p { max-width:none; }
+  @media (max-width:600px) {
+    .wrap { padding:32px 16px 56px; }
+    td.path { white-space:normal; word-break:break-all; }
+    table { font-size:13.5px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="kicker">Global Financial Information &middot; Data API v1</p>
+  <h1>Every number here carries a source and a date.</h1>
+  <p class="lede">191 economic series across 39 countries, readable by a person,
+  a spreadsheet or an AI assistant. No key, no sign-up. Each series returns its level, unit,
+  as-of date, source status and a finished citation string. History depth, revision records,
+  bulk export and the statutory rules layer are licensed.</p>
+
+  <div class="strip">
+    <div><b>2026-11-09</b><span>Data as of</span></div>
+    <div><b>191</b><span>Series</span></div>
+    <div><b>39</b><span>Countries</span></div>
+    <div><b>115</b><span>Source unresolved</span></div>
+    <div><b>0</b><span>Key required</span></div>
+  </div>
+
+  <h2>One request</h2>
+  <pre>curl https://packersblacktemplars-sketch.github.io/gfi-api/api/v1/series/USA.POLICY.RATE.json</pre>
+  <p>That returns the United States policy rate at 3.88 percent as of 2026-11-03, sourced to the
+  BIS compilation of central bank policy rates, with the citation string already assembled:
+  the subject, the series id, the as-of date, the retrieval date and a permanent URL.</p>
+
+  <h2>Routes</h2>
+  <table>
+    <thead><tr><th>File</th><th>Returns</th></tr></thead>
+    <tbody>
+      <tr><td class="path"><a href="api/v1/index.json">index.json</a></td>
+          <td>Counts, data as of, the tier, and this endpoint map.</td></tr>
+      <tr><td class="path"><a href="api/v1/catalog.json">catalog.json</a></td>
+          <td>All 191 series in one file: id, subject, value, unit, as-of, source status,
+          coverage tier, definition and citation.</td></tr>
+      <tr><td class="path"><a href="api/v1/series/USA.POLICY.RATE.json">series/{series_id}.json</a></td>
+          <td>One series in full: latest, prior, change, history window, definition, source,
+          citation.</td></tr>
+      <tr><td class="path"><a href="api/v1/country/ZAF.json">country/{iso3}.json</a></td>
+          <td>A country packet: standing state, shifts, rules, people, places, news, sources and
+          its own citation.</td></tr>
+      <tr><td class="path"><a href="api/v1/changes.json">changes.json</a></td>
+          <td>Verified shift rows only. Today it returns an empty set declared as
+          <code class="inline">not_collected</code>, not a set of zeroes.</td></tr>
+      <tr><td class="path"><a href="api/v1/openapi.json">openapi.json</a></td>
+          <td>The contract, for tooling and agents.</td></tr>
+    </tbody>
+  </table>
+  <p class="note"><b>Two hosts, same bytes.</b> This page and every route above serve
+  <code class="inline">application/json</code>. The branded base
+  <a href="https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/index.json">on Hugging Face</a> is the one to cite; that host serves every JSON
+  file as <code class="inline">text/plain</code>, so point a strict client at this host instead.</p>
+
+  <h2>Series id grammar</h2>
+  <p><code class="inline">GEO.FAMILY.MEASURE</code>, uppercase, dots, issued once and never
+  reused. GEO is ISO3. Families are POLICY (RATE, REAL), PRICE (CPI_YOY), FISCAL (DEBT_GDP),
+  MACRO (GDP_GROWTH), DEMO (six population and labour measures) and, on the licensed tier,
+  RULE (eight statutory limits).</p>
+
+  <h2>Four rules the data follows</h2>
+  <ol class="rules">
+    <li><b>A source is named only when that source carries the figure.</b>
+      Where it does not, the source is null and the status says unresolved.
+      115 of 191 series are in that state today rather than
+      borrowing a neighbour's name.</li>
+    <li><b>Annual figures are periods, not dates.</b> The as-of field is null, the period is the
+      year and an estimate flag travels with it. No figure is stamped December 31 to make a
+      column look tidy.</li>
+    <li><b>A derived figure publishes its inputs and a verdict on comparability.</b>
+      The real policy rate carries the date of the rate and the period of the price index it was
+      deflated by. 3 series are flagged for review, including the
+      United States, whose real rate still rests on 2024 inflation.</li>
+    <li><b>Empty is declared.</b> An uncollected block says so. It never renders as a blank cell
+      or a zero.</li>
+  </ol>
+
+  <h2>Free, and what is licensed</h2>
+  <div class="cols">
+    <div>
+      <table>
+        <thead><tr><th>Free, no key</th></tr></thead>
+        <tbody>
+          <tr><td>Every series level, unit and as-of date with its source status</td></tr>
+          <tr><td>Definition and coverage tier per series</td></tr>
+          <tr><td>Country packets: state, news, sources</td></tr>
+          <tr><td>A finished citation string</td></tr>
+          <tr><td>CC BY 4.0, cite Global Financial Information</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table>
+        <thead><tr><th>Licensed</th></tr></thead>
+        <tbody>
+          <tr><td>History deep enough to compute a change over years</td></tr>
+          <tr><td>Revision records and changelog ids</td></tr>
+          <tr><td>Whole-family CSV and parquet export</td></tr>
+          <tr><td>The eight statutory limits per country</td></tr>
+          <tr><td>Redistribution, seats and an SLA</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <h2>How to cite</h2>
+  <blockquote>Global Financial Information, &ldquo;United States policy rate&rdquo;
+  (USA.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-10.</blockquote>
+  <p>The string that arrives in the response already includes the permanent URL for that series,
+  so a citation written today still resolves after the next release.</p>
+
+  <footer>
+    <p>Data as of 2026-11-09. Surface generated 2026-11-10T17:06:36+00:00. Series ids are stable; a
+    schema change ships as a new version path, and the previous one stays served.
+    Defects found while building this surface are published in the repository rather than
+    quietly patched, including the one source column that covers five families and the
+    real-rate pairs built from mismatched dates.</p>
+    <p>Free tier CC BY 4.0. Global Financial Information.</p>
+  </footer>
+
+</div>
+</body>
+</html>
