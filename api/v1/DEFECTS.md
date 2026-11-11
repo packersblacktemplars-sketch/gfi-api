@@ -8,7 +8,7 @@ pipeline that the API now refuses to hide.
 
 1. **One source column for five families.** The CSV stamps `source = BIS WS_CBPOL` on every
    row. BIS WS_CBPOL carries policy rates. It does not carry consumer price inflation, general
-   government debt or real GDP growth. 115 of 191 series (39 CPI, 38 debt, 38 growth) are
+   government debt or real GDP growth. 115 of 193 series (39 CPI, 38 debt, 38 growth) are
    therefore attributed to a source that does not publish them. Fix: per-family source columns
    when the map is rebuilt; until then the API serves `source: null, source_status: "unresolved"`.
 
