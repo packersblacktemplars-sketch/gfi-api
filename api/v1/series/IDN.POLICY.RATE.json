@@ -37,8 +37,8 @@
   "earliest_available": null
  },
  "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate.",
- "data_as_of": "2026-11-11",
- "retrieved_at": "2026-11-11T00:42:01+00:00",
+ "data_as_of": "2026-10-19",
+ "retrieved_at": "2026-11-11T00:49:42+00:00",
  "citation": "Global Financial Information, \"Indonesia policy rate\" (IDN.POLICY.RATE), data as of 2026-10-19, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.POLICY.RATE.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {

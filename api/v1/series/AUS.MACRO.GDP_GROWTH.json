@@ -37,8 +37,8 @@
   "earliest_available": null
  },
  "definition": "Real GDP growth, 12-month percent change, annual figure.",
- "data_as_of": "2026-11-11",
- "retrieved_at": "2026-11-11T00:42:01+00:00",
+ "data_as_of": null,
+ "retrieved_at": "2026-11-11T00:49:42+00:00",
  "citation": "Global Financial Information, \"Australia real GDP growth\" (AUS.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.MACRO.GDP_GROWTH.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {

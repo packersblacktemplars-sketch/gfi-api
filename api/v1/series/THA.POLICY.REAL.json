@@ -44,8 +44,8 @@
   "earliest_available": null
  },
  "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window.",
- "data_as_of": "2026-11-11",
- "retrieved_at": "2026-11-11T00:42:01+00:00",
+ "data_as_of": "2026-10-29",
+ "retrieved_at": "2026-11-11T00:49:42+00:00",
  "citation": "Global Financial Information, \"Thailand real policy rate\" (THA.POLICY.REAL), data as of 2026-10-29, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.POLICY.REAL.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {

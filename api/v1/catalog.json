@@ -3,7 +3,7 @@
  "returned": 193,
  "cursor": 193,
  "has_more": false,
- "data_as_of": "2026-11-11",
+ "data_as_of": "2026-11-05",
  "series": [
   {
    "series_id": "ARG.FISCAL.DEBT_GDP",
@@ -2515,5 +2515,5 @@
    "definition": "Consumer price inflation, 12-month percent change, annual national figure."
   }
  ],
- "generated_at": "2026-11-11T00:42:01+00:00"
+ "generated_at": "2026-11-11T00:49:41+00:00"
 }
