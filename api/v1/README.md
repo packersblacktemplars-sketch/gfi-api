@@ -56,3 +56,8 @@ date, source, definition and citation here.
 Licensed: history deep enough to compute a change over years, revision records and changelog
 ids, whole-family CSV and parquet export, the statutory rules layer, watch levels with
 resolve-by dates, and the right to redistribute.
+
+Licensed terms and the founding pilot (90 days, one seat, 480 US dollars invoiced, credited
+against an annual licence) are set out at https://globalfinancialinfo.info/for-professionals,
+with the field definitions at https://globalfinancialinfo.info/methodology/policy-rates and the
+published defects in DEFECTS.md beside this file. Contact: partners@globalfinancialinfo.info.
