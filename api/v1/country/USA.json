@@ -5,8 +5,8 @@
   "region": "Americas",
   "currency_code": "USD"
  },
- "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:23:58+00:00",
+ "data_as_of": "2026-11-11",
+ "retrieved_at": "2026-11-11T00:37:15+00:00",
  "blocks": {
   "state": {
    "status": "ok",
@@ -29,7 +29,7 @@
     {
      "series_id": "USA.POLICY.REAL",
      "label": "Real policy rate",
-     "value": 0.92,
+     "value": 0.93,
      "unit": "percent",
      "as_of": "2026-11-03",
      "period": "2024",
@@ -119,6 +119,6 @@
    "cadence": "daily to monthly, per central bank"
   }
  ],
- "citation": "Global Financial Information, country packet \"United States\", data as of 2026-11-09, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/USA.json",
+ "citation": "Global Financial Information, country packet \"United States\", data as of 2026-11-11, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/USA.json",
  "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/USA.json"
 }

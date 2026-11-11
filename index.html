@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GFI data API v1: every number carries a source and a date</title>
-<meta name="description" content="Free, keyless access to 191 economic series across 39 countries. Level, unit, as-of date, source status and a finished citation string for every series.">
+<meta name="description" content="Free, keyless access to 193 economic series across 39 countries. Level, unit, as-of date, source status and a finished citation string for every series.">
 <style>
   :root {
     --ink:#14171a; --muted:#5a636b; --rule:#d8dce0; --canvas:#fbfaf7; --panel:#ffffff;
@@ -82,14 +82,14 @@
 
   <p class="kicker">Global Financial Information &middot; Data API v1</p>
   <h1>Every number here carries a source and a date.</h1>
-  <p class="lede">191 economic series across 39 countries, readable by a person,
+  <p class="lede">193 economic series across 39 countries, readable by a person,
   a spreadsheet or an AI assistant. No key, no sign-up. Each series returns its level, unit,
   as-of date, source status and a finished citation string. History depth, revision records,
   bulk export and the statutory rules layer are licensed.</p>
 
   <div class="strip">
-    <div><b>2026-11-09</b><span>Data as of</span></div>
-    <div><b>191</b><span>Series</span></div>
+    <div><b>2026-11-11</b><span>Data as of</span></div>
+    <div><b>193</b><span>Series</span></div>
     <div><b>39</b><span>Countries</span></div>
     <div><b>115</b><span>Source unresolved</span></div>
     <div><b>0</b><span>Key required</span></div>
@@ -108,7 +108,7 @@
       <tr><td class="path"><a href="api/v1/index.json">index.json</a></td>
           <td>Counts, data as of, the tier, and this endpoint map.</td></tr>
       <tr><td class="path"><a href="api/v1/catalog.json">catalog.json</a></td>
-          <td>All 191 series in one file: id, subject, value, unit, as-of, source status,
+          <td>All 193 series in one file: id, subject, value, unit, as-of, source status,
           coverage tier, definition and citation.</td></tr>
       <tr><td class="path"><a href="api/v1/series/USA.POLICY.RATE.json">series/{series_id}.json</a></td>
           <td>One series in full: latest, prior, change, history window, definition, source,
@@ -138,7 +138,7 @@
   <ol class="rules">
     <li><b>A source is named only when that source carries the figure.</b>
       Where it does not, the source is null and the status says unresolved.
-      115 of 191 series are in that state today rather than
+      115 of 193 series are in that state today rather than
       borrowing a neighbour's name.</li>
     <li><b>Annual figures are periods, not dates.</b> The as-of field is null, the period is the
       year and an estimate flag travels with it. No figure is stamped December 31 to make a
@@ -185,39 +185,8 @@
   <p>The string that arrives in the response already includes the permanent URL for that series,
   so a citation written today still resolves after the next release.</p>
 
-
-  <h2>For a professional buyer</h2>
-  <p>Everything above is free and stays free. It is the citation layer, and a citation is worth
-  more to us when it is easy to make. What is licensed is the work a citation does not need: a
-  row deep enough to cite without re-deriving it, the history behind the current level, the
-  record of what was revised, and the statutory limits that sit behind a rate.</p>
-  <table>
-    <thead><tr><th colspan="2">Fifteen fields a licensed row is specified to carry</th></tr></thead>
-    <tbody>
-      <tr><td>1 series id &middot; 2 subject &middot; 3 country and region &middot; 4 instrument</td>
-          <td>5 announcing body &middot; 6 legal reference &middot; 7 value &middot; 8 unit</td></tr>
-      <tr><td>9 as-of date &middot; 10 effective date &middot; 11 prior value</td>
-          <td>12 prior as-of date &middot; 13 source and source URL &middot; 14 revision status &middot; 15 definition</td></tr>
-    </tbody>
-  </table>
-  <p>The founding pilot runs 90 days for one seat at 480 US dollars, invoiced, credited against an
-  annual licence if the organisation continues. Invoice and W-9 on request from
-  <a href="mailto:partners@globalfinancialinfo.info">partners@globalfinancialinfo.info</a>. The
-  terms sit on <a href="https://globalfinancialinfo.info/for-professionals">/for-professionals</a>
-  and each field is defined on
-  <a href="https://globalfinancialinfo.info/methodology/policy-rates">/methodology/policy-rates</a>.</p>
-  <p class="note"><b>The defects are the first work of a pilot, and they are yours to see now.</b>
-  Per-family source attribution is missing for 115 series, which is why their source reads null
-  instead of a borrowed name, and three real-rate pairs are built from a rate and a price index
-  drawn from different periods. Both are written up in
-  <a href="api/v1/DEFECTS.md">DEFECTS.md</a> with the fix, because a buyer should find them here
-  before finding them in a spreadsheet.</p>
-  <p class="note">A second free surface answers the questions this tree does not: the function API
-  at <a href="https://globalfinancialinfo.info/api">globalfinancialinfo.info/api</a> returns the
-  current rates table, published articles by country and glossary terms, as JSON or CSV.</p>
-
   <footer>
-    <p>Data as of 2026-11-09. Surface generated 2026-11-10T17:23:58+00:00. Series ids are stable; a
+    <p>Data as of 2026-11-11. Surface generated 2026-11-11T00:37:15+00:00. Series ids are stable; a
     schema change ships as a new version path, and the previous one stays served.
     Defects found while building this surface are
     <a href="api/v1/DEFECTS.md">published</a> rather than quietly patched, including the one

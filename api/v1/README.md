@@ -5,14 +5,14 @@ Base: `https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-ma
 Free to cite, paid to compute with. No key, no sign-up, no rate limit: every series level
 with its unit, as-of date, source status, coverage tier and a finished citation string.
 
-Data as of 2026-11-09. Surface generated 2026-11-10T17:23:58+00:00.
+Data as of 2026-11-11. Surface generated 2026-11-11T00:37:15+00:00.
 
 ## What is here
 
 | File | Holds |
 |---|---|
 | `index.json` | Counts, data as of, tier, endpoint map |
-| `catalog.json` | All 191 series: id, subject, value, unit, as-of, source status, tier, definition, citation |
+| `catalog.json` | All 193 series: id, subject, value, unit, as-of, source status, tier, definition, citation |
 | `series/<ID>.json` | One series in full: latest, prior, change, definition, source, citation |
 | `country/<ISO3>.json` | Country packet for 39 countries: standing state, shifts, news, sources, citation |
 | `changes.json` | Verified shift rows only. An empty set is declared as `not_collected`, never rendered as zero |
@@ -32,7 +32,7 @@ Example: `https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate
 
 1. A source is named only when the source actually carries that figure. Where it does not,
    `source` is null and `source_status` is `unresolved`. 115
-   of 191 series are in that state today, rather than borrowing a neighbour's name.
+   of 193 series are in that state today, rather than borrowing a neighbour's name.
 2. Annual figures are periods, not dates: `as_of` is null, `period` is the year,
    `is_estimate` is carried. No synthesised December 31.
 3. A derived figure publishes its inputs and a comparability verdict. `POLICY.REAL` carries
@@ -56,8 +56,3 @@ date, source, definition and citation here.
 Licensed: history deep enough to compute a change over years, revision records and changelog
 ids, whole-family CSV and parquet export, the statutory rules layer, watch levels with
 resolve-by dates, and the right to redistribute.
-
-Licensed terms and the founding pilot (90 days, one seat, 480 US dollars invoiced, credited
-against an annual licence) are set out at https://globalfinancialinfo.info/for-professionals,
-with the field definitions at https://globalfinancialinfo.info/methodology/policy-rates and the
-published defects in DEFECTS.md beside this file. Contact: partners@globalfinancialinfo.info.

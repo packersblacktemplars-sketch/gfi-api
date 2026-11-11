@@ -37,9 +37,9 @@
   "earliest_available": null
  },
  "definition": "Consumer price inflation, 12-month percent change, annual national figure.",
- "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:23:58+00:00",
- "citation": "Global Financial Information, \"Sweden consumer price inflation\" (SWE.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.PRICE.CPI_YOY.json",
+ "data_as_of": "2026-11-11",
+ "retrieved_at": "2026-11-11T00:37:15+00:00",
+ "citation": "Global Financial Information, \"Sweden consumer price inflation\" (SWE.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.PRICE.CPI_YOY.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {
   "gated": true,

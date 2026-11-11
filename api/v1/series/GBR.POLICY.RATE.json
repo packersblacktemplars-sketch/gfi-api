@@ -12,21 +12,21 @@
  "source_status": "secondary_compilation",
  "review_required": false,
  "latest": {
-  "value": 3.75,
-  "as_of": "2026-11-02",
+  "value": 4.0,
+  "as_of": "2026-11-05",
   "period": null,
   "granularity": "event",
   "is_estimate": false,
-  "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
-  "source_url": "https://stats.bis.org/statx/srs/table/c1",
+  "source": "Bank of England Monetary Policy Summary, 4 November 2026 (Bank Rate raised to 4.00%, effective 5 November); BIS WS_CBPOL to 2026-11-03",
+  "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
   "source_status": "secondary_compilation"
  },
  "prior": null,
  "change": null,
  "observations": [
   {
-   "date": "2026-11-02",
-   "value": 3.75,
+   "date": "2026-11-05",
+   "value": 4.0,
    "status": "observed"
   }
  ],
@@ -37,9 +37,9 @@
   "earliest_available": null
  },
  "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate.",
- "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:23:58+00:00",
- "citation": "Global Financial Information, \"United Kingdom policy rate\" (GBR.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.POLICY.RATE.json",
+ "data_as_of": "2026-11-11",
+ "retrieved_at": "2026-11-11T00:37:15+00:00",
+ "citation": "Global Financial Information, \"United Kingdom policy rate\" (GBR.POLICY.RATE), data as of 2026-11-05, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.POLICY.RATE.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {
   "gated": true,

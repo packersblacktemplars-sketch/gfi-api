@@ -5,8 +5,8 @@
   "region": "Europe",
   "currency_code": "GBP"
  },
- "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:23:58+00:00",
+ "data_as_of": "2026-11-11",
+ "retrieved_at": "2026-11-11T00:37:15+00:00",
  "blocks": {
   "state": {
    "status": "ok",
@@ -14,11 +14,11 @@
     {
      "series_id": "GBR.POLICY.RATE",
      "label": "Policy rate",
-     "value": 3.75,
+     "value": 4.0,
      "unit": "percent",
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-05",
      "period": null,
-     "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
+     "source": "Bank of England Monetary Policy Summary, 4 November 2026 (Bank Rate raised to 4.00%, effective 5 November); BIS WS_CBPOL to 2026-11-03",
      "source_status": "secondary_compilation",
      "coverage_tier": "secondary",
      "comparability": null,
@@ -29,11 +29,11 @@
     {
      "series_id": "GBR.POLICY.REAL",
      "label": "Real policy rate",
-     "value": -0.13,
+     "value": 0.12,
      "unit": "percent",
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-05",
      "period": "2025",
-     "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
+     "source": "Bank of England Monetary Policy Summary, 4 November 2026 (Bank Rate raised to 4.00%, effective 5 November); BIS WS_CBPOL to 2026-11-03",
      "source_status": "derived_from_unverified_pair",
      "coverage_tier": "derived",
      "comparability": "comparable",
@@ -119,6 +119,6 @@
    "cadence": "daily to monthly, per central bank"
   }
  ],
- "citation": "Global Financial Information, country packet \"United Kingdom\", data as of 2026-11-09, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/GBR.json",
+ "citation": "Global Financial Information, country packet \"United Kingdom\", data as of 2026-11-11, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/GBR.json",
  "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/GBR.json"
 }

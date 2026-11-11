@@ -5,8 +5,8 @@
   "region": "Europe",
   "currency_code": "NOK"
  },
- "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:23:58+00:00",
+ "data_as_of": "2026-11-11",
+ "retrieved_at": "2026-11-11T00:37:15+00:00",
  "blocks": {
   "state": {
    "status": "ok",
@@ -88,7 +88,7 @@
     }
    ]
   },
-  "next_meeting_date": "2026-11-05",
+  "next_meeting_date": null,
   "shifts": {
    "status": "not_collected",
    "note": "Populated from the change store; no verified shift rows for this country yet. An empty block is reported, never filled."
@@ -119,6 +119,6 @@
    "cadence": "daily to monthly, per central bank"
   }
  ],
- "citation": "Global Financial Information, country packet \"Norway\", data as of 2026-11-09, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/NOR.json",
+ "citation": "Global Financial Information, country packet \"Norway\", data as of 2026-11-11, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/NOR.json",
  "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/NOR.json"
 }

@@ -5,12 +5,42 @@
   "region": "Asia-Pacific",
   "currency_code": "PHP"
  },
- "data_as_of": "2026-11-09",
- "retrieved_at": "2026-11-10T17:23:58+00:00",
+ "data_as_of": "2026-11-11",
+ "retrieved_at": "2026-11-11T00:37:15+00:00",
  "blocks": {
   "state": {
    "status": "ok",
    "cells": [
+    {
+     "series_id": "PHL.POLICY.RATE",
+     "label": "Policy rate",
+     "value": 5.5,
+     "unit": "percent",
+     "as_of": "2026-10-30",
+     "period": null,
+     "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
+     "source_status": "secondary_compilation",
+     "coverage_tier": "secondary",
+     "comparability": null,
+     "prior_value": null,
+     "prior_as_of": null,
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.POLICY.RATE.json"
+    },
+    {
+     "series_id": "PHL.POLICY.REAL",
+     "label": "Real policy rate",
+     "value": 3.84,
+     "unit": "percent",
+     "as_of": "2026-10-30",
+     "period": "2025",
+     "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
+     "source_status": "derived_from_unverified_pair",
+     "coverage_tier": "derived",
+     "comparability": "comparable",
+     "prior_value": null,
+     "prior_as_of": null,
+     "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.POLICY.REAL.json"
+    },
     {
      "series_id": "PHL.PRICE.CPI_YOY",
      "label": "Inflation",
@@ -58,7 +88,7 @@
     }
    ]
   },
-  "next_meeting_date": "2026-10-22",
+  "next_meeting_date": null,
   "shifts": {
    "status": "not_collected",
    "note": "Populated from the change store; no verified shift rows for this country yet. An empty block is reported, never filled."
@@ -89,6 +119,6 @@
    "cadence": "daily to monthly, per central bank"
   }
  ],
- "citation": "Global Financial Information, country packet \"Philippines\", data as of 2026-11-09, retrieved 2026-11-10. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/PHL.json",
+ "citation": "Global Financial Information, country packet \"Philippines\", data as of 2026-11-11, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/PHL.json",
  "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/PHL.json"
 }
