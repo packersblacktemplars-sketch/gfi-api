@@ -38,7 +38,7 @@
  },
  "definition": "General government gross debt as a share of GDP.",
  "data_as_of": null,
- "retrieved_at": "2026-11-11T01:06:59+00:00",
+ "retrieved_at": "2026-11-11T01:09:23+00:00",
  "citation": "Global Financial Information, \"South Africa general government debt\" (ZAF.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.FISCAL.DEBT_GDP.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {

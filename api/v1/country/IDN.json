@@ -5,8 +5,8 @@
   "region": "Asia-Pacific",
   "currency_code": "IDR"
  },
- "data_as_of": "2026-11-11",
- "retrieved_at": "2026-11-11T01:06:59+00:00",
+ "data_as_of": "2026-10-19",
+ "retrieved_at": "2026-11-11T01:09:23+00:00",
  "blocks": {
   "state": {
    "status": "ok",
@@ -119,6 +119,6 @@
    "cadence": "daily to monthly, per central bank"
   }
  ],
- "citation": "Global Financial Information, country packet \"Indonesia\", data as of 2026-11-11, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/IDN.json",
+ "citation": "Global Financial Information, country packet \"Indonesia\", data as of 2026-10-19, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/IDN.json",
  "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/IDN.json"
 }

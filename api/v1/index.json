@@ -10,7 +10,7 @@
   "review_required": 3
  },
  "tier": "free",
- "rate_limit_per_day": 1000,
+ "rate_limit_per_day": 100000,
  "endpoints": {
   "index": "index.json",
   "catalog": "catalog.json",
@@ -31,8 +31,8 @@
  "base": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1",
  "mirror": "https://packersblacktemplars-sketch.github.io/gfi-api/api/v1",
  "serving": "static",
- "generated_at": "2026-11-11T01:06:58+00:00",
- "compiled_at": "2026-11-11T01:06:58+00:00",
+ "generated_at": "2026-11-11T01:09:23+00:00",
+ "compiled_at": "2026-11-11T01:09:23+00:00",
  "data_as_of_meaning": "date of the newest observation included",
  "note": "Free to cite. Each route is a static file with the same shape the live function returns; history depth, revision records, bulk export and the rules layer are licensed."
 }

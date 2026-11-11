@@ -38,7 +38,7 @@
  },
  "definition": "Consumer price inflation, 12-month percent change, annual national figure.",
  "data_as_of": null,
- "retrieved_at": "2026-11-11T01:06:58+00:00",
+ "retrieved_at": "2026-11-11T01:09:23+00:00",
  "citation": "Global Financial Information, \"India consumer price inflation\" (IND.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.PRICE.CPI_YOY.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {

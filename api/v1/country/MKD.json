@@ -5,8 +5,8 @@
   "region": "Europe",
   "currency_code": "MKD"
  },
- "data_as_of": "2026-11-11",
- "retrieved_at": "2026-11-11T01:06:59+00:00",
+ "data_as_of": "2026-11-02",
+ "retrieved_at": "2026-11-11T01:09:23+00:00",
  "blocks": {
   "state": {
    "status": "ok",
@@ -119,6 +119,6 @@
    "cadence": "daily to monthly, per central bank"
   }
  ],
- "citation": "Global Financial Information, country packet \"North Macedonia\", data as of 2026-11-11, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/MKD.json",
+ "citation": "Global Financial Information, country packet \"North Macedonia\", data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/MKD.json",
  "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/MKD.json"
 }
