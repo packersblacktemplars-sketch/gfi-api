@@ -12,13 +12,16 @@ pipeline that the API now refuses to hide.
    therefore attributed to a source that does not publish them. Fix: per-family source columns
    when the map is rebuilt; until then the API serves `source: null, source_status: "unresolved"`.
 
-2. **The United States real policy rate runs on 2024 inflation.** `USA.POLICY.REAL` = 0.92%,
+2. **The United States real policy rate runs on 2024 inflation.** `USA.POLICY.REAL` = 0.93%,
    computed as a 3.88% rate dated 2026-11-03 less a 2.95% CPI figure for **2024**, 28 months
    apart. Argentina is the same construction (29.00% rate dated 2025-07-10 less 219.88% CPI for
    2024, giving -190.88%). Two of 38 real-rate series are affected, and they happen to be the
-   most-read country and the most extreme value on the map. Fix: refresh the CPI inputs to the
-   latest annual or monthly print per country; the API flags `stale_inputs` and
-   `review_required` until then.
+   most-read country and the most extreme value on the map. A third real rate,
+   `MAR.POLICY.REAL` = 1.55%, is flagged `review_required` for a different reason: its policy
+   rate is itself marked stale as of 2026-08-31 (item 5), so the derived figure inherits the
+   flag. Three series therefore enter this release flagged, which is the count `index.json`
+   publishes. Fix: refresh the CPI inputs to the latest annual or monthly print per country;
+   the API flags `stale_inputs` and `review_required` until then.
 
 3. **Annual periods rendered as December 31 dates.** `debt_gdp_year` and `gdp_growth_year` are
    2026 for all 38 countries carrying them, which the map pipeline turns into `2026-12-31`, a
