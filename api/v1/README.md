@@ -5,7 +5,7 @@ Base: `https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-ma
 Free to cite, paid to compute with. No key, no sign-up, no rate limit: every series level
 with its unit, as-of date, source status, coverage tier and a finished citation string.
 
-Data as of 2026-11-05. Surface generated 2026-11-11T01:09:23+00:00.
+Data as of 2026-11-05. Surface generated 2026-11-13T15:52:22+00:00.
 
 ## What is here
 
@@ -31,7 +31,7 @@ Example: `https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate
 ## Four rules the data follows
 
 1. A source is named only when the source actually carries that figure. Where it does not,
-   `source` is null and `source_status` is `unresolved`. 115
+   `source` is null and `source_status` is `unresolved`. 0
    of 193 series are in that state today, rather than borrowing a neighbour's name.
 2. Annual figures are periods, not dates: `as_of` is null, `period` is the year,
    `is_estimate` is carried. No synthesised December 31.

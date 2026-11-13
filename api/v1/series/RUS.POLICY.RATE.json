@@ -38,8 +38,8 @@
  },
  "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate.",
  "data_as_of": "2026-11-03",
- "retrieved_at": "2026-11-11T01:09:23+00:00",
- "citation": "Global Financial Information, \"Russia policy rate\" (RUS.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.POLICY.RATE.json",
+ "retrieved_at": "2026-11-13T15:52:22+00:00",
+ "citation": "Global Financial Information, \"Russia policy rate\" (RUS.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.POLICY.RATE.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {
   "gated": true,

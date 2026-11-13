@@ -9,24 +9,27 @@
  "measure": "CPI_YOY",
  "unit": "percent",
  "coverage_tier": "indicator",
- "source_status": "unresolved",
+ "source_status": "secondary_compilation",
  "review_required": false,
  "latest": {
-  "value": 3.04,
+  "value": 2.693,
   "as_of": null,
   "period": "2025",
   "granularity": "annual",
-  "is_estimate": false,
-  "source": null,
-  "source_url": null,
-  "source_status": "unresolved"
+  "is_estimate": true,
+  "source": "IMF World Economic Outlook, April 2025 vintage, via DBnomics",
+  "source_url": "https://api.db.nomics.world/v22/series/IMF/WEO:2025-04/ISR.PCPIPCH.pcent_change",
+  "source_status": "secondary_compilation",
+  "superseded_value": 3.04,
+  "vintage": "2025",
+  "series_code": "ISR.PCPIPCH.pcent_change"
  },
  "prior": null,
  "change": null,
  "observations": [
   {
    "date": null,
-   "value": 3.04,
+   "value": 2.693,
    "status": "observed"
   }
  ],
@@ -36,10 +39,10 @@
   "window_limit": 24,
   "earliest_available": null
  },
- "definition": "Consumer price inflation, 12-month percent change, annual national figure.",
+ "definition": "Consumer price inflation, average consumer prices, annual percent change",
  "data_as_of": null,
- "retrieved_at": "2026-11-11T01:09:23+00:00",
- "citation": "Global Financial Information, \"Israel consumer price inflation\" (ISR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.PRICE.CPI_YOY.json",
+ "retrieved_at": "2026-11-13T15:52:22+00:00",
+ "citation": "Global Financial Information, \"Israel consumer price inflation\" (ISR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.PRICE.CPI_YOY.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {
   "gated": true,

@@ -9,7 +9,7 @@
  "measure": "REAL",
  "unit": "percent",
  "coverage_tier": "derived",
- "source_status": "derived_from_unverified_pair",
+ "source_status": "derived_from_cited_pair",
  "review_required": false,
  "latest": {
   "value": 0.21,
@@ -17,9 +17,9 @@
   "period": "2025",
   "granularity": "derived",
   "is_estimate": false,
-  "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
+  "source": "Derived: BIS WS_CBPOL policy rate less IMF WEO April 2025 inflation",
   "source_url": "https://stats.bis.org/statx/srs/table/c1",
-  "source_status": "derived_from_unverified_pair",
+  "source_status": "derived_from_cited_pair",
   "inputs": {
    "policy_rate_date": "2026-10-31",
    "inflation_period": "2025"
@@ -45,8 +45,8 @@
  },
  "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window.",
  "data_as_of": "2026-10-31",
- "retrieved_at": "2026-11-11T01:09:23+00:00",
- "citation": "Global Financial Information, \"Israel real policy rate\" (ISR.POLICY.REAL), data as of 2026-10-31, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.POLICY.REAL.json",
+ "retrieved_at": "2026-11-13T15:52:22+00:00",
+ "citation": "Global Financial Information, \"Israel real policy rate\" (ISR.POLICY.REAL), data as of 2026-10-31, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.POLICY.REAL.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {
   "gated": true,

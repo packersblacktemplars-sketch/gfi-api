@@ -11,12 +11,12 @@
    "iso3": "ARG",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 70.4,
+   "value": 68.233,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Argentina general government debt\" (ARG.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Argentina general government debt\" (ARG.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "ARG.MACRO.GDP_GROWTH",
@@ -24,12 +24,12 @@
    "iso3": "ARG",
    "family": "MACRO",
    "unit": "percent",
-   "value": 3.5,
+   "value": 4.52,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Argentina real GDP growth\" (ARG.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Argentina real GDP growth\" (ARG.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "ARG.POLICY.RATE",
@@ -40,7 +40,7 @@
    "value": 29.0,
    "as_of": "2025-07-10",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Argentina policy rate\" (ARG.POLICY.RATE), data as of 2025-07-10, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Argentina policy rate\" (ARG.POLICY.RATE), data as of 2025-07-10, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -53,7 +53,7 @@
    "value": -190.88,
    "as_of": "2025-07-10",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Argentina real policy rate\" (ARG.POLICY.REAL), data as of 2025-07-10, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Argentina real policy rate\" (ARG.POLICY.REAL), data as of 2025-07-10, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -63,12 +63,12 @@
    "iso3": "ARG",
    "family": "PRICE",
    "unit": "percent",
-   "value": 219.88,
+   "value": 35.91,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Argentina consumer price inflation\" (ARG.PRICE.CPI_YOY), data as of period 2024 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Argentina consumer price inflation\" (ARG.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ARG.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "AUS.FISCAL.DEBT_GDP",
@@ -76,12 +76,12 @@
    "iso3": "AUS",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 50.6,
+   "value": 50.533,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Australia general government debt\" (AUS.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Australia general government debt\" (AUS.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "AUS.MACRO.GDP_GROWTH",
@@ -89,12 +89,12 @@
    "iso3": "AUS",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.0,
+   "value": 2.078,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Australia real GDP growth\" (AUS.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Australia real GDP growth\" (AUS.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "AUS.POLICY.RATE",
@@ -105,7 +105,7 @@
    "value": 4.6,
    "as_of": "2026-10-29",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Australia policy rate\" (AUS.POLICY.RATE), data as of 2026-10-29, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Australia policy rate\" (AUS.POLICY.RATE), data as of 2026-10-29, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -118,7 +118,7 @@
    "value": 1.73,
    "as_of": "2026-10-29",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Australia real policy rate\" (AUS.POLICY.REAL), data as of 2026-10-29, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Australia real policy rate\" (AUS.POLICY.REAL), data as of 2026-10-29, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -128,12 +128,12 @@
    "iso3": "AUS",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.87,
+   "value": 2.55,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Australia consumer price inflation\" (AUS.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Australia consumer price inflation\" (AUS.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/AUS.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "BRA.FISCAL.DEBT_GDP",
@@ -141,12 +141,12 @@
    "iso3": "BRA",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 96.5,
+   "value": 96.008,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Brazil general government debt\" (BRA.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Brazil general government debt\" (BRA.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "BRA.MACRO.GDP_GROWTH",
@@ -154,12 +154,12 @@
    "iso3": "BRA",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.9,
+   "value": 1.984,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Brazil real GDP growth\" (BRA.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Brazil real GDP growth\" (BRA.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "BRA.POLICY.RATE",
@@ -170,7 +170,7 @@
    "value": 13.75,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Brazil policy rate\" (BRA.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Brazil policy rate\" (BRA.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -183,7 +183,7 @@
    "value": 8.73,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Brazil real policy rate\" (BRA.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Brazil real policy rate\" (BRA.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -193,12 +193,12 @@
    "iso3": "BRA",
    "family": "PRICE",
    "unit": "percent",
-   "value": 5.02,
+   "value": 5.307,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Brazil consumer price inflation\" (BRA.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Brazil consumer price inflation\" (BRA.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/BRA.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "CAN.FISCAL.DEBT_GDP",
@@ -206,12 +206,12 @@
    "iso3": "CAN",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 110.7,
+   "value": 110.891,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Canada general government debt\" (CAN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Canada general government debt\" (CAN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "CAN.MACRO.GDP_GROWTH",
@@ -219,12 +219,12 @@
    "iso3": "CAN",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.5,
+   "value": 1.558,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Canada real GDP growth\" (CAN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Canada real GDP growth\" (CAN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "CAN.POLICY.RATE",
@@ -235,7 +235,7 @@
    "value": 2.5,
    "as_of": "2026-11-02",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Canada policy rate\" (CAN.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Canada policy rate\" (CAN.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -248,7 +248,7 @@
    "value": 0.43,
    "as_of": "2026-11-02",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Canada real policy rate\" (CAN.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Canada real policy rate\" (CAN.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -258,12 +258,12 @@
    "iso3": "CAN",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.07,
+   "value": 1.982,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Canada consumer price inflation\" (CAN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Canada consumer price inflation\" (CAN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CAN.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "CHE.FISCAL.DEBT_GDP",
@@ -271,12 +271,12 @@
    "iso3": "CHE",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 38.5,
+   "value": 35.963,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Switzerland general government debt\" (CHE.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Switzerland general government debt\" (CHE.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "CHE.MACRO.GDP_GROWTH",
@@ -284,12 +284,12 @@
    "iso3": "CHE",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.3,
+   "value": 1.611,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Switzerland real GDP growth\" (CHE.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Switzerland real GDP growth\" (CHE.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "CHE.POLICY.RATE",
@@ -300,7 +300,7 @@
    "value": 0.0,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Switzerland policy rate\" (CHE.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Switzerland policy rate\" (CHE.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -313,7 +313,7 @@
    "value": -0.15,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Switzerland real policy rate\" (CHE.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Switzerland real policy rate\" (CHE.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -323,12 +323,12 @@
    "iso3": "CHE",
    "family": "PRICE",
    "unit": "percent",
-   "value": 0.15,
+   "value": 0.229,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Switzerland consumer price inflation\" (CHE.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Switzerland consumer price inflation\" (CHE.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "CHL.FISCAL.DEBT_GDP",
@@ -336,12 +336,12 @@
    "iso3": "CHL",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 42.5,
+   "value": 43.415,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Chile general government debt\" (CHL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Chile general government debt\" (CHL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "CHL.MACRO.GDP_GROWTH",
@@ -349,12 +349,12 @@
    "iso3": "CHL",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.4,
+   "value": 2.182,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Chile real GDP growth\" (CHL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Chile real GDP growth\" (CHL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "CHL.POLICY.RATE",
@@ -365,7 +365,7 @@
    "value": 4.5,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Chile policy rate\" (CHL.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Chile policy rate\" (CHL.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -378,7 +378,7 @@
    "value": 0.29,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Chile real policy rate\" (CHL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Chile real policy rate\" (CHL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -388,12 +388,12 @@
    "iso3": "CHL",
    "family": "PRICE",
    "unit": "percent",
-   "value": 4.21,
+   "value": 4.363,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Chile consumer price inflation\" (CHL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Chile consumer price inflation\" (CHL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHL.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "CHN.FISCAL.DEBT_GDP",
@@ -401,12 +401,12 @@
    "iso3": "CHN",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 106.9,
+   "value": 102.314,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"China general government debt\" (CHN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"China general government debt\" (CHN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "CHN.MACRO.GDP_GROWTH",
@@ -414,12 +414,12 @@
    "iso3": "CHN",
    "family": "MACRO",
    "unit": "percent",
-   "value": 4.4,
+   "value": 3.957,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"China real GDP growth\" (CHN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"China real GDP growth\" (CHN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "CHN.POLICY.RATE",
@@ -430,7 +430,7 @@
    "value": 3.0,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"China policy rate\" (CHN.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"China policy rate\" (CHN.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -443,7 +443,7 @@
    "value": 2.94,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"China real policy rate\" (CHN.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"China real policy rate\" (CHN.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -453,12 +453,12 @@
    "iso3": "CHN",
    "family": "PRICE",
    "unit": "percent",
-   "value": 0.06,
+   "value": -0.026,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"China consumer price inflation\" (CHN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"China consumer price inflation\" (CHN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHN.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "COL.FISCAL.DEBT_GDP",
@@ -466,12 +466,12 @@
    "iso3": "COL",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 60.9,
+   "value": 59.903,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Colombia general government debt\" (COL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Colombia general government debt\" (COL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "COL.MACRO.GDP_GROWTH",
@@ -479,12 +479,12 @@
    "iso3": "COL",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.3,
+   "value": 2.625,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Colombia real GDP growth\" (COL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Colombia real GDP growth\" (COL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "COL.POLICY.RATE",
@@ -495,7 +495,7 @@
    "value": 12.25,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Colombia policy rate\" (COL.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Colombia policy rate\" (COL.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -508,7 +508,7 @@
    "value": 7.11,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Colombia real policy rate\" (COL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Colombia real policy rate\" (COL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -518,12 +518,12 @@
    "iso3": "COL",
    "family": "PRICE",
    "unit": "percent",
-   "value": 5.14,
+   "value": 4.693,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Colombia consumer price inflation\" (COL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Colombia consumer price inflation\" (COL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/COL.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "CZE.FISCAL.DEBT_GDP",
@@ -531,12 +531,12 @@
    "iso3": "CZE",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 46.4,
+   "value": 45.583,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Czech Republic general government debt\" (CZE.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Czech Republic general government debt\" (CZE.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "CZE.MACRO.GDP_GROWTH",
@@ -544,12 +544,12 @@
    "iso3": "CZE",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.2,
+   "value": 1.792,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Czech Republic real GDP growth\" (CZE.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Czech Republic real GDP growth\" (CZE.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "CZE.POLICY.RATE",
@@ -560,7 +560,7 @@
    "value": 3.75,
    "as_of": "2026-11-02",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Czech Republic policy rate\" (CZE.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Czech Republic policy rate\" (CZE.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -573,7 +573,7 @@
    "value": 1.29,
    "as_of": "2026-11-02",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Czech Republic real policy rate\" (CZE.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Czech Republic real policy rate\" (CZE.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -583,12 +583,12 @@
    "iso3": "CZE",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.46,
+   "value": 2.481,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Czech Republic consumer price inflation\" (CZE.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Czech Republic consumer price inflation\" (CZE.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "DNK.FISCAL.DEBT_GDP",
@@ -596,12 +596,12 @@
    "iso3": "DNK",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 27.4,
+   "value": 26.112,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Denmark general government debt\" (DNK.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Denmark general government debt\" (DNK.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "DNK.MACRO.GDP_GROWTH",
@@ -609,12 +609,12 @@
    "iso3": "DNK",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.0,
+   "value": 1.845,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Denmark real GDP growth\" (DNK.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Denmark real GDP growth\" (DNK.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "DNK.POLICY.RATE",
@@ -625,7 +625,7 @@
    "value": 2.1,
    "as_of": "2026-11-02",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Denmark policy rate\" (DNK.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Denmark policy rate\" (DNK.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -638,7 +638,7 @@
    "value": 0.21,
    "as_of": "2026-11-02",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Denmark real policy rate\" (DNK.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Denmark real policy rate\" (DNK.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -648,12 +648,12 @@
    "iso3": "DNK",
    "family": "PRICE",
    "unit": "percent",
-   "value": 1.89,
+   "value": 1.936,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Denmark consumer price inflation\" (DNK.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Denmark consumer price inflation\" (DNK.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/DNK.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "EMU.POLICY.RATE",
@@ -664,7 +664,7 @@
    "value": 2.5,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Euro Area policy rate\" (EMU.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Euro Area policy rate\" (EMU.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -677,7 +677,7 @@
    "value": 0.03,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Euro Area real policy rate\" (EMU.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Euro Area real policy rate\" (EMU.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -687,12 +687,12 @@
    "iso3": "EMU",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.47,
+   "value": 2.1,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Euro Area consumer price inflation\" (EMU.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Euro Area consumer price inflation\" (EMU.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/EMU.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Harmonised index of consumer prices, annual rate of change, euro area."
   },
   {
    "series_id": "GBR.FISCAL.DEBT_GDP",
@@ -700,12 +700,12 @@
    "iso3": "GBR",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 103.6,
+   "value": 105.399,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"United Kingdom general government debt\" (GBR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"United Kingdom general government debt\" (GBR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "GBR.MACRO.GDP_GROWTH",
@@ -713,12 +713,12 @@
    "iso3": "GBR",
    "family": "MACRO",
    "unit": "percent",
-   "value": 0.8,
+   "value": 1.407,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"United Kingdom real GDP growth\" (GBR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"United Kingdom real GDP growth\" (GBR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "GBR.POLICY.RATE",
@@ -729,7 +729,7 @@
    "value": 4.0,
    "as_of": "2026-11-05",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"United Kingdom policy rate\" (GBR.POLICY.RATE), data as of 2026-11-05, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"United Kingdom policy rate\" (GBR.POLICY.RATE), data as of 2026-11-05, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -742,7 +742,7 @@
    "value": 0.12,
    "as_of": "2026-11-05",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"United Kingdom real policy rate\" (GBR.POLICY.REAL), data as of 2026-11-05, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"United Kingdom real policy rate\" (GBR.POLICY.REAL), data as of 2026-11-05, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -752,12 +752,12 @@
    "iso3": "GBR",
    "family": "PRICE",
    "unit": "percent",
-   "value": 3.88,
+   "value": 3.125,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"United Kingdom consumer price inflation\" (GBR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"United Kingdom consumer price inflation\" (GBR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/GBR.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "HKG.FISCAL.DEBT_GDP",
@@ -765,12 +765,12 @@
    "iso3": "HKG",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 14.1,
+   "value": 14.314,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Hong Kong general government debt\" (HKG.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Hong Kong general government debt\" (HKG.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "HKG.MACRO.GDP_GROWTH",
@@ -778,12 +778,12 @@
    "iso3": "HKG",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.4,
+   "value": 1.863,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Hong Kong real GDP growth\" (HKG.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Hong Kong real GDP growth\" (HKG.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "HKG.POLICY.RATE",
@@ -794,7 +794,7 @@
    "value": 4.25,
    "as_of": "2026-10-28",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Hong Kong policy rate\" (HKG.POLICY.RATE), data as of 2026-10-28, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Hong Kong policy rate\" (HKG.POLICY.RATE), data as of 2026-10-28, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -807,7 +807,7 @@
    "value": 2.81,
    "as_of": "2026-10-28",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Hong Kong real policy rate\" (HKG.POLICY.REAL), data as of 2026-10-28, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Hong Kong real policy rate\" (HKG.POLICY.REAL), data as of 2026-10-28, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -817,12 +817,12 @@
    "iso3": "HKG",
    "family": "PRICE",
    "unit": "percent",
-   "value": 1.44,
+   "value": 1.9,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Hong Kong consumer price inflation\" (HKG.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Hong Kong consumer price inflation\" (HKG.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HKG.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "HUN.FISCAL.DEBT_GDP",
@@ -830,12 +830,12 @@
    "iso3": "HUN",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 77.9,
+   "value": 73.449,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Hungary general government debt\" (HUN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Hungary general government debt\" (HUN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "HUN.MACRO.GDP_GROWTH",
@@ -843,12 +843,12 @@
    "iso3": "HUN",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.7,
+   "value": 2.55,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Hungary real GDP growth\" (HUN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Hungary real GDP growth\" (HUN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "HUN.POLICY.RATE",
@@ -859,7 +859,7 @@
    "value": 5.5,
    "as_of": "2026-10-28",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Hungary policy rate\" (HUN.POLICY.RATE), data as of 2026-10-28, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Hungary policy rate\" (HUN.POLICY.RATE), data as of 2026-10-28, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -872,7 +872,7 @@
    "value": 1.09,
    "as_of": "2026-10-28",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Hungary real policy rate\" (HUN.POLICY.REAL), data as of 2026-10-28, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Hungary real policy rate\" (HUN.POLICY.REAL), data as of 2026-10-28, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -882,12 +882,12 @@
    "iso3": "HUN",
    "family": "PRICE",
    "unit": "percent",
-   "value": 4.41,
+   "value": 4.92,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Hungary consumer price inflation\" (HUN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Hungary consumer price inflation\" (HUN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/HUN.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "IDN.FISCAL.DEBT_GDP",
@@ -895,12 +895,12 @@
    "iso3": "IDN",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 41.5,
+   "value": 40.976,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Indonesia general government debt\" (IDN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Indonesia general government debt\" (IDN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "IDN.MACRO.GDP_GROWTH",
@@ -908,12 +908,12 @@
    "iso3": "IDN",
    "family": "MACRO",
    "unit": "percent",
-   "value": 5.0,
+   "value": 4.674,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Indonesia real GDP growth\" (IDN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Indonesia real GDP growth\" (IDN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "IDN.POLICY.RATE",
@@ -924,7 +924,7 @@
    "value": 5.75,
    "as_of": "2026-10-19",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Indonesia policy rate\" (IDN.POLICY.RATE), data as of 2026-10-19, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Indonesia policy rate\" (IDN.POLICY.RATE), data as of 2026-10-19, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -937,7 +937,7 @@
    "value": 3.84,
    "as_of": "2026-10-19",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Indonesia real policy rate\" (IDN.POLICY.REAL), data as of 2026-10-19, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Indonesia real policy rate\" (IDN.POLICY.REAL), data as of 2026-10-19, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -947,12 +947,12 @@
    "iso3": "IDN",
    "family": "PRICE",
    "unit": "percent",
-   "value": 1.91,
+   "value": 1.683,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Indonesia consumer price inflation\" (IDN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Indonesia consumer price inflation\" (IDN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IDN.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "IND.FISCAL.DEBT_GDP",
@@ -960,12 +960,12 @@
    "iso3": "IND",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 83.4,
+   "value": 79.605,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"India general government debt\" (IND.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"India general government debt\" (IND.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "IND.MACRO.GDP_GROWTH",
@@ -973,12 +973,12 @@
    "iso3": "IND",
    "family": "MACRO",
    "unit": "percent",
-   "value": 6.5,
+   "value": 6.265,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"India real GDP growth\" (IND.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"India real GDP growth\" (IND.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "IND.POLICY.RATE",
@@ -989,7 +989,7 @@
    "value": 5.5,
    "as_of": "2026-10-19",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"India policy rate\" (IND.POLICY.RATE), data as of 2026-10-19, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"India policy rate\" (IND.POLICY.RATE), data as of 2026-10-19, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1002,7 +1002,7 @@
    "value": 3.1,
    "as_of": "2026-10-19",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"India real policy rate\" (IND.POLICY.REAL), data as of 2026-10-19, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"India real policy rate\" (IND.POLICY.REAL), data as of 2026-10-19, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1012,12 +1012,12 @@
    "iso3": "IND",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.4,
+   "value": 4.238,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"India consumer price inflation\" (IND.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"India consumer price inflation\" (IND.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/IND.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "ISL.FISCAL.DEBT_GDP",
@@ -1025,12 +1025,12 @@
    "iso3": "ISL",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 53.6,
+   "value": 49.799,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Iceland general government debt\" (ISL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Iceland general government debt\" (ISL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "ISL.MACRO.GDP_GROWTH",
@@ -1038,12 +1038,12 @@
    "iso3": "ISL",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.9,
+   "value": 2.4,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Iceland real GDP growth\" (ISL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Iceland real GDP growth\" (ISL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "ISL.POLICY.RATE",
@@ -1054,7 +1054,7 @@
    "value": 8.0,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Iceland policy rate\" (ISL.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Iceland policy rate\" (ISL.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1067,7 +1067,7 @@
    "value": 3.91,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Iceland real policy rate\" (ISL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Iceland real policy rate\" (ISL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1077,12 +1077,12 @@
    "iso3": "ISL",
    "family": "PRICE",
    "unit": "percent",
-   "value": 4.09,
+   "value": 3.489,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Iceland consumer price inflation\" (ISL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Iceland consumer price inflation\" (ISL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISL.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "ISR.FISCAL.DEBT_GDP",
@@ -1090,12 +1090,12 @@
    "iso3": "ISR",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 69.8,
+   "value": 69.341,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Israel general government debt\" (ISR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Israel general government debt\" (ISR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "ISR.MACRO.GDP_GROWTH",
@@ -1103,12 +1103,12 @@
    "iso3": "ISR",
    "family": "MACRO",
    "unit": "percent",
-   "value": 3.5,
+   "value": 3.6,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Israel real GDP growth\" (ISR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Israel real GDP growth\" (ISR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "ISR.POLICY.RATE",
@@ -1119,7 +1119,7 @@
    "value": 3.25,
    "as_of": "2026-10-31",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Israel policy rate\" (ISR.POLICY.RATE), data as of 2026-10-31, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Israel policy rate\" (ISR.POLICY.RATE), data as of 2026-10-31, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1132,7 +1132,7 @@
    "value": 0.21,
    "as_of": "2026-10-31",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Israel real policy rate\" (ISR.POLICY.REAL), data as of 2026-10-31, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Israel real policy rate\" (ISR.POLICY.REAL), data as of 2026-10-31, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1142,12 +1142,12 @@
    "iso3": "ISR",
    "family": "PRICE",
    "unit": "percent",
-   "value": 3.04,
+   "value": 2.693,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Israel consumer price inflation\" (ISR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Israel consumer price inflation\" (ISR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ISR.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "JPN.FISCAL.DEBT_GDP",
@@ -1155,12 +1155,12 @@
    "iso3": "JPN",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 204.4,
+   "value": 233.73,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Japan general government debt\" (JPN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Japan general government debt\" (JPN.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "JPN.MACRO.GDP_GROWTH",
@@ -1168,12 +1168,12 @@
    "iso3": "JPN",
    "family": "MACRO",
    "unit": "percent",
-   "value": 0.7,
+   "value": 0.579,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Japan real GDP growth\" (JPN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Japan real GDP growth\" (JPN.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "JPN.POLICY.RATE",
@@ -1184,7 +1184,7 @@
    "value": 1.25,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Japan policy rate\" (JPN.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Japan policy rate\" (JPN.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1197,7 +1197,7 @@
    "value": -1.92,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Japan real policy rate\" (JPN.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Japan real policy rate\" (JPN.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1207,12 +1207,12 @@
    "iso3": "JPN",
    "family": "PRICE",
    "unit": "percent",
-   "value": 3.17,
+   "value": 2.363,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Japan consumer price inflation\" (JPN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Japan consumer price inflation\" (JPN.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/JPN.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "KOR.FISCAL.DEBT_GDP",
@@ -1220,12 +1220,12 @@
    "iso3": "KOR",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 54.4,
+   "value": 55.731,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"South Korea general government debt\" (KOR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"South Korea general government debt\" (KOR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "KOR.MACRO.GDP_GROWTH",
@@ -1233,12 +1233,12 @@
    "iso3": "KOR",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.9,
+   "value": 1.447,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"South Korea real GDP growth\" (KOR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"South Korea real GDP growth\" (KOR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "KOR.POLICY.RATE",
@@ -1249,7 +1249,7 @@
    "value": 3.0,
    "as_of": "2026-10-08",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"South Korea policy rate\" (KOR.POLICY.RATE), data as of 2026-10-08, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"South Korea policy rate\" (KOR.POLICY.RATE), data as of 2026-10-08, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1262,7 +1262,7 @@
    "value": 0.88,
    "as_of": "2026-10-08",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"South Korea real policy rate\" (KOR.POLICY.REAL), data as of 2026-10-08, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"South Korea real policy rate\" (KOR.POLICY.REAL), data as of 2026-10-08, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1272,12 +1272,12 @@
    "iso3": "KOR",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.12,
+   "value": 1.839,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"South Korea consumer price inflation\" (KOR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"South Korea consumer price inflation\" (KOR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KOR.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "KWT.FISCAL.DEBT_GDP",
@@ -1285,12 +1285,12 @@
    "iso3": "KWT",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 22.3,
+   "value": 10.77,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Kuwait general government debt\" (KWT.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Kuwait general government debt\" (KWT.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "KWT.MACRO.GDP_GROWTH",
@@ -1298,12 +1298,12 @@
    "iso3": "KWT",
    "family": "MACRO",
    "unit": "percent",
-   "value": -0.6,
+   "value": 3.129,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Kuwait real GDP growth\" (KWT.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Kuwait real GDP growth\" (KWT.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "KWT.POLICY.RATE",
@@ -1314,7 +1314,7 @@
    "value": 3.5,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Kuwait policy rate\" (KWT.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Kuwait policy rate\" (KWT.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1327,7 +1327,7 @@
    "value": 1.14,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Kuwait real policy rate\" (KWT.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Kuwait real policy rate\" (KWT.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1337,12 +1337,12 @@
    "iso3": "KWT",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.36,
+   "value": 2.471,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Kuwait consumer price inflation\" (KWT.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Kuwait consumer price inflation\" (KWT.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/KWT.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "MAR.FISCAL.DEBT_GDP",
@@ -1350,12 +1350,12 @@
    "iso3": "MAR",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 65.8,
+   "value": 67.698,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Morocco general government debt\" (MAR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Morocco general government debt\" (MAR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "MAR.MACRO.GDP_GROWTH",
@@ -1363,12 +1363,12 @@
    "iso3": "MAR",
    "family": "MACRO",
    "unit": "percent",
-   "value": 4.9,
+   "value": 3.746,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Morocco real GDP growth\" (MAR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Morocco real GDP growth\" (MAR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "MAR.POLICY.RATE",
@@ -1379,7 +1379,7 @@
    "value": 2.25,
    "as_of": "2026-08-31",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Morocco policy rate\" (MAR.POLICY.RATE), data as of 2026-08-31, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Morocco policy rate\" (MAR.POLICY.RATE), data as of 2026-08-31, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1392,7 +1392,7 @@
    "value": 1.55,
    "as_of": "2026-08-31",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Morocco real policy rate\" (MAR.POLICY.REAL), data as of 2026-08-31, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Morocco real policy rate\" (MAR.POLICY.REAL), data as of 2026-08-31, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1402,12 +1402,12 @@
    "iso3": "MAR",
    "family": "PRICE",
    "unit": "percent",
-   "value": 0.7,
+   "value": 2.152,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Morocco consumer price inflation\" (MAR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Morocco consumer price inflation\" (MAR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MAR.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "MEX.FISCAL.DEBT_GDP",
@@ -1415,12 +1415,12 @@
    "iso3": "MEX",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 62.7,
+   "value": 61.145,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Mexico general government debt\" (MEX.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Mexico general government debt\" (MEX.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "MEX.MACRO.GDP_GROWTH",
@@ -1428,12 +1428,12 @@
    "iso3": "MEX",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.6,
+   "value": 1.37,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Mexico real GDP growth\" (MEX.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Mexico real GDP growth\" (MEX.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "MEX.POLICY.RATE",
@@ -1444,7 +1444,7 @@
    "value": 6.5,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Mexico policy rate\" (MEX.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Mexico policy rate\" (MEX.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1457,7 +1457,7 @@
    "value": 2.69,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Mexico real policy rate\" (MEX.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Mexico real policy rate\" (MEX.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1467,12 +1467,12 @@
    "iso3": "MEX",
    "family": "PRICE",
    "unit": "percent",
-   "value": 3.81,
+   "value": 3.538,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Mexico consumer price inflation\" (MEX.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Mexico consumer price inflation\" (MEX.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MEX.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "MKD.FISCAL.DEBT_GDP",
@@ -1480,12 +1480,12 @@
    "iso3": "MKD",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 53.1,
+   "value": 54.448,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"North Macedonia general government debt\" (MKD.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"North Macedonia general government debt\" (MKD.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "MKD.MACRO.GDP_GROWTH",
@@ -1493,12 +1493,12 @@
    "iso3": "MKD",
    "family": "MACRO",
    "unit": "percent",
-   "value": 3.1,
+   "value": 3.2,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"North Macedonia real GDP growth\" (MKD.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"North Macedonia real GDP growth\" (MKD.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "MKD.POLICY.RATE",
@@ -1509,7 +1509,7 @@
    "value": 4.25,
    "as_of": "2026-11-02",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"North Macedonia policy rate\" (MKD.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"North Macedonia policy rate\" (MKD.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1522,7 +1522,7 @@
    "value": 0.18,
    "as_of": "2026-11-02",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"North Macedonia real policy rate\" (MKD.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"North Macedonia real policy rate\" (MKD.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1532,12 +1532,12 @@
    "iso3": "MKD",
    "family": "PRICE",
    "unit": "percent",
-   "value": 4.07,
+   "value": 3.4,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"North Macedonia consumer price inflation\" (MKD.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"North Macedonia consumer price inflation\" (MKD.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MKD.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "MYS.FISCAL.DEBT_GDP",
@@ -1545,12 +1545,12 @@
    "iso3": "MYS",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 69.5,
+   "value": 69.838,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Malaysia general government debt\" (MYS.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Malaysia general government debt\" (MYS.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "MYS.MACRO.GDP_GROWTH",
@@ -1558,12 +1558,12 @@
    "iso3": "MYS",
    "family": "MACRO",
    "unit": "percent",
-   "value": 4.7,
+   "value": 3.8,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Malaysia real GDP growth\" (MYS.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Malaysia real GDP growth\" (MYS.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "MYS.POLICY.RATE",
@@ -1574,7 +1574,7 @@
    "value": 2.75,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Malaysia policy rate\" (MYS.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Malaysia policy rate\" (MYS.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1587,7 +1587,7 @@
    "value": 1.37,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Malaysia real policy rate\" (MYS.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Malaysia real policy rate\" (MYS.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1597,12 +1597,12 @@
    "iso3": "MYS",
    "family": "PRICE",
    "unit": "percent",
-   "value": 1.38,
+   "value": 2.431,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Malaysia consumer price inflation\" (MYS.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Malaysia consumer price inflation\" (MYS.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/MYS.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "NOR.FISCAL.DEBT_GDP",
@@ -1610,12 +1610,12 @@
    "iso3": "NOR",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 42.9,
+   "value": 42.523,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Norway general government debt\" (NOR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Norway general government debt\" (NOR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "NOR.MACRO.GDP_GROWTH",
@@ -1623,12 +1623,12 @@
    "iso3": "NOR",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.5,
+   "value": 1.72,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Norway real GDP growth\" (NOR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Norway real GDP growth\" (NOR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "NOR.POLICY.RATE",
@@ -1639,7 +1639,7 @@
    "value": 4.5,
    "as_of": "2026-11-02",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Norway policy rate\" (NOR.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Norway policy rate\" (NOR.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1652,7 +1652,7 @@
    "value": 1.44,
    "as_of": "2026-11-02",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Norway real policy rate\" (NOR.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Norway real policy rate\" (NOR.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1662,12 +1662,12 @@
    "iso3": "NOR",
    "family": "PRICE",
    "unit": "percent",
-   "value": 3.06,
+   "value": 2.599,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Norway consumer price inflation\" (NOR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Norway consumer price inflation\" (NOR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NOR.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "NZL.FISCAL.DEBT_GDP",
@@ -1675,12 +1675,12 @@
    "iso3": "NZL",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 56.7,
+   "value": 58.43,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"New Zealand general government debt\" (NZL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"New Zealand general government debt\" (NZL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "NZL.MACRO.GDP_GROWTH",
@@ -1688,12 +1688,12 @@
    "iso3": "NZL",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.1,
+   "value": 2.722,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"New Zealand real GDP growth\" (NZL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"New Zealand real GDP growth\" (NZL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "NZL.POLICY.RATE",
@@ -1704,7 +1704,7 @@
    "value": 2.75,
    "as_of": "2026-10-30",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"New Zealand policy rate\" (NZL.POLICY.RATE), data as of 2026-10-30, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"New Zealand policy rate\" (NZL.POLICY.RATE), data as of 2026-10-30, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1717,7 +1717,7 @@
    "value": -0.09,
    "as_of": "2026-10-30",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"New Zealand real policy rate\" (NZL.POLICY.REAL), data as of 2026-10-30, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"New Zealand real policy rate\" (NZL.POLICY.REAL), data as of 2026-10-30, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1727,12 +1727,12 @@
    "iso3": "NZL",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.84,
+   "value": 2.013,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"New Zealand consumer price inflation\" (NZL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"New Zealand consumer price inflation\" (NZL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/NZL.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "PER.FISCAL.DEBT_GDP",
@@ -1740,12 +1740,12 @@
    "iso3": "PER",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 30.0,
+   "value": 34.714,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Peru general government debt\" (PER.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Peru general government debt\" (PER.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "PER.MACRO.GDP_GROWTH",
@@ -1753,12 +1753,12 @@
    "iso3": "PER",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.8,
+   "value": 2.61,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Peru real GDP growth\" (PER.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Peru real GDP growth\" (PER.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "PER.POLICY.RATE",
@@ -1769,7 +1769,7 @@
    "value": 4.25,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Peru policy rate\" (PER.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Peru policy rate\" (PER.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1782,7 +1782,7 @@
    "value": 2.72,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Peru real policy rate\" (PER.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Peru real policy rate\" (PER.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1792,12 +1792,12 @@
    "iso3": "PER",
    "family": "PRICE",
    "unit": "percent",
-   "value": 1.53,
+   "value": 1.667,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Peru consumer price inflation\" (PER.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Peru consumer price inflation\" (PER.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PER.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "PHL.FISCAL.DEBT_GDP",
@@ -1805,12 +1805,12 @@
    "iso3": "PHL",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 60.2,
+   "value": 58.087,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Philippines general government debt\" (PHL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Philippines general government debt\" (PHL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "PHL.MACRO.GDP_GROWTH",
@@ -1818,12 +1818,12 @@
    "iso3": "PHL",
    "family": "MACRO",
    "unit": "percent",
-   "value": 4.1,
+   "value": 5.76,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Philippines real GDP growth\" (PHL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Philippines real GDP growth\" (PHL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "PHL.POLICY.RATE",
@@ -1834,7 +1834,7 @@
    "value": 5.5,
    "as_of": "2026-10-30",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Philippines policy rate\" (PHL.POLICY.RATE), data as of 2026-10-30, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Philippines policy rate\" (PHL.POLICY.RATE), data as of 2026-10-30, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1847,7 +1847,7 @@
    "value": 3.84,
    "as_of": "2026-10-30",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Philippines real policy rate\" (PHL.POLICY.REAL), data as of 2026-10-30, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Philippines real policy rate\" (PHL.POLICY.REAL), data as of 2026-10-30, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1857,12 +1857,12 @@
    "iso3": "PHL",
    "family": "PRICE",
    "unit": "percent",
-   "value": 1.66,
+   "value": 2.609,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Philippines consumer price inflation\" (PHL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Philippines consumer price inflation\" (PHL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/PHL.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "POL.FISCAL.DEBT_GDP",
@@ -1870,12 +1870,12 @@
    "iso3": "POL",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 65.7,
+   "value": 64.317,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Poland general government debt\" (POL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Poland general government debt\" (POL.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "POL.MACRO.GDP_GROWTH",
@@ -1883,12 +1883,12 @@
    "iso3": "POL",
    "family": "MACRO",
    "unit": "percent",
-   "value": 3.3,
+   "value": 3.101,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Poland real GDP growth\" (POL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Poland real GDP growth\" (POL.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "POL.POLICY.RATE",
@@ -1899,7 +1899,7 @@
    "value": 3.75,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Poland policy rate\" (POL.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Poland policy rate\" (POL.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1912,7 +1912,7 @@
    "value": -0.06,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Poland real policy rate\" (POL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Poland real policy rate\" (POL.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1922,12 +1922,12 @@
    "iso3": "POL",
    "family": "PRICE",
    "unit": "percent",
-   "value": 3.81,
+   "value": 4.286,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Poland consumer price inflation\" (POL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Poland consumer price inflation\" (POL.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/POL.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "ROU.FISCAL.DEBT_GDP",
@@ -1935,12 +1935,12 @@
    "iso3": "ROU",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 61.9,
+   "value": 65.654,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Romania general government debt\" (ROU.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Romania general government debt\" (ROU.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "ROU.MACRO.GDP_GROWTH",
@@ -1948,12 +1948,12 @@
    "iso3": "ROU",
    "family": "MACRO",
    "unit": "percent",
-   "value": 0.7,
+   "value": 2.759,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Romania real GDP growth\" (ROU.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Romania real GDP growth\" (ROU.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "ROU.POLICY.RATE",
@@ -1964,7 +1964,7 @@
    "value": 6.5,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Romania policy rate\" (ROU.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Romania policy rate\" (ROU.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -1977,7 +1977,7 @@
    "value": -0.69,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Romania real policy rate\" (ROU.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Romania real policy rate\" (ROU.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -1987,12 +1987,12 @@
    "iso3": "ROU",
    "family": "PRICE",
    "unit": "percent",
-   "value": 7.19,
+   "value": 4.608,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Romania consumer price inflation\" (ROU.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Romania consumer price inflation\" (ROU.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ROU.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "RUS.FISCAL.DEBT_GDP",
@@ -2000,12 +2000,12 @@
    "iso3": "RUS",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 19.1,
+   "value": 22.547,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Russia general government debt\" (RUS.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Russia general government debt\" (RUS.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "RUS.MACRO.GDP_GROWTH",
@@ -2013,12 +2013,12 @@
    "iso3": "RUS",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.1,
+   "value": 0.865,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Russia real GDP growth\" (RUS.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Russia real GDP growth\" (RUS.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "RUS.POLICY.RATE",
@@ -2029,7 +2029,7 @@
    "value": 14.0,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Russia policy rate\" (RUS.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Russia policy rate\" (RUS.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -2042,7 +2042,7 @@
    "value": 5.28,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Russia real policy rate\" (RUS.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Russia real policy rate\" (RUS.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -2052,12 +2052,12 @@
    "iso3": "RUS",
    "family": "PRICE",
    "unit": "percent",
-   "value": 8.72,
+   "value": 9.265,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Russia consumer price inflation\" (RUS.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Russia consumer price inflation\" (RUS.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/RUS.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "SAU.FISCAL.DEBT_GDP",
@@ -2065,12 +2065,12 @@
    "iso3": "SAU",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 32.1,
+   "value": 38.531,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Saudi Arabia general government debt\" (SAU.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Saudi Arabia general government debt\" (SAU.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "SAU.MACRO.GDP_GROWTH",
@@ -2078,12 +2078,12 @@
    "iso3": "SAU",
    "family": "MACRO",
    "unit": "percent",
-   "value": 3.1,
+   "value": 3.742,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Saudi Arabia real GDP growth\" (SAU.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Saudi Arabia real GDP growth\" (SAU.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "SAU.POLICY.RATE",
@@ -2094,7 +2094,7 @@
    "value": 4.5,
    "as_of": "2026-10-29",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Saudi Arabia policy rate\" (SAU.POLICY.RATE), data as of 2026-10-29, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Saudi Arabia policy rate\" (SAU.POLICY.RATE), data as of 2026-10-29, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -2107,7 +2107,7 @@
    "value": 2.42,
    "as_of": "2026-10-29",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Saudi Arabia real policy rate\" (SAU.POLICY.REAL), data as of 2026-10-29, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Saudi Arabia real policy rate\" (SAU.POLICY.REAL), data as of 2026-10-29, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -2117,12 +2117,12 @@
    "iso3": "SAU",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.08,
+   "value": 1.992,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Saudi Arabia consumer price inflation\" (SAU.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Saudi Arabia consumer price inflation\" (SAU.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SAU.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "SRB.FISCAL.DEBT_GDP",
@@ -2130,12 +2130,12 @@
    "iso3": "SRB",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 42.6,
+   "value": 44.144,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Serbia general government debt\" (SRB.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Serbia general government debt\" (SRB.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "SRB.MACRO.GDP_GROWTH",
@@ -2143,12 +2143,12 @@
    "iso3": "SRB",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.8,
+   "value": 4.234,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Serbia real GDP growth\" (SRB.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Serbia real GDP growth\" (SRB.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "SRB.POLICY.RATE",
@@ -2159,7 +2159,7 @@
    "value": 5.75,
    "as_of": "2026-10-30",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Serbia policy rate\" (SRB.POLICY.RATE), data as of 2026-10-30, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Serbia policy rate\" (SRB.POLICY.RATE), data as of 2026-10-30, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -2172,7 +2172,7 @@
    "value": 1.86,
    "as_of": "2026-10-30",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Serbia real policy rate\" (SRB.POLICY.REAL), data as of 2026-10-30, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Serbia real policy rate\" (SRB.POLICY.REAL), data as of 2026-10-30, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -2182,12 +2182,12 @@
    "iso3": "SRB",
    "family": "PRICE",
    "unit": "percent",
-   "value": 3.89,
+   "value": 4.023,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Serbia consumer price inflation\" (SRB.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Serbia consumer price inflation\" (SRB.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SRB.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "SWE.FISCAL.DEBT_GDP",
@@ -2195,12 +2195,12 @@
    "iso3": "SWE",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 36.7,
+   "value": 33.859,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Sweden general government debt\" (SWE.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Sweden general government debt\" (SWE.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "SWE.MACRO.GDP_GROWTH",
@@ -2208,12 +2208,12 @@
    "iso3": "SWE",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.0,
+   "value": 2.168,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Sweden real GDP growth\" (SWE.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Sweden real GDP growth\" (SWE.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "SWE.POLICY.RATE",
@@ -2224,7 +2224,7 @@
    "value": 1.75,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Sweden policy rate\" (SWE.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Sweden policy rate\" (SWE.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -2237,7 +2237,7 @@
    "value": 1.07,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Sweden real policy rate\" (SWE.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Sweden real policy rate\" (SWE.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -2247,12 +2247,12 @@
    "iso3": "SWE",
    "family": "PRICE",
    "unit": "percent",
-   "value": 0.68,
+   "value": 2.112,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Sweden consumer price inflation\" (SWE.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Sweden consumer price inflation\" (SWE.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/SWE.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "THA.FISCAL.DEBT_GDP",
@@ -2260,12 +2260,12 @@
    "iso3": "THA",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 66.8,
+   "value": 66.002,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Thailand general government debt\" (THA.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Thailand general government debt\" (THA.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "THA.MACRO.GDP_GROWTH",
@@ -2273,12 +2273,12 @@
    "iso3": "THA",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.5,
+   "value": 1.6,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Thailand real GDP growth\" (THA.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Thailand real GDP growth\" (THA.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "THA.POLICY.RATE",
@@ -2289,7 +2289,7 @@
    "value": 1.0,
    "as_of": "2026-10-29",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Thailand policy rate\" (THA.POLICY.RATE), data as of 2026-10-29, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Thailand policy rate\" (THA.POLICY.RATE), data as of 2026-10-29, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -2302,7 +2302,7 @@
    "value": 1.13,
    "as_of": "2026-10-29",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Thailand real policy rate\" (THA.POLICY.REAL), data as of 2026-10-29, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Thailand real policy rate\" (THA.POLICY.REAL), data as of 2026-10-29, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -2312,12 +2312,12 @@
    "iso3": "THA",
    "family": "PRICE",
    "unit": "percent",
-   "value": -0.13,
+   "value": 0.693,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Thailand consumer price inflation\" (THA.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Thailand consumer price inflation\" (THA.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/THA.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "TUR.FISCAL.DEBT_GDP",
@@ -2325,12 +2325,12 @@
    "iso3": "TUR",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 25.5,
+   "value": 27.101,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Turkey general government debt\" (TUR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"Turkey general government debt\" (TUR.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "TUR.MACRO.GDP_GROWTH",
@@ -2338,12 +2338,12 @@
    "iso3": "TUR",
    "family": "MACRO",
    "unit": "percent",
-   "value": 3.4,
+   "value": 3.191,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Turkey real GDP growth\" (TUR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"Turkey real GDP growth\" (TUR.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "TUR.POLICY.RATE",
@@ -2354,7 +2354,7 @@
    "value": 36.0,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"Turkey policy rate\" (TUR.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"Turkey policy rate\" (TUR.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -2367,7 +2367,7 @@
    "value": 1.12,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"Turkey real policy rate\" (TUR.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"Turkey real policy rate\" (TUR.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -2377,12 +2377,12 @@
    "iso3": "TUR",
    "family": "PRICE",
    "unit": "percent",
-   "value": 34.88,
+   "value": 35.928,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"Turkey consumer price inflation\" (TUR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"Turkey consumer price inflation\" (TUR.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/TUR.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "USA.FISCAL.DEBT_GDP",
@@ -2390,12 +2390,12 @@
    "iso3": "USA",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 125.8,
+   "value": 123.692,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"United States general government debt\" (USA.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"United States general government debt\" (USA.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "USA.MACRO.GDP_GROWTH",
@@ -2403,12 +2403,12 @@
    "iso3": "USA",
    "family": "MACRO",
    "unit": "percent",
-   "value": 2.3,
+   "value": 1.744,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"United States real GDP growth\" (USA.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"United States real GDP growth\" (USA.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "USA.POLICY.RATE",
@@ -2419,7 +2419,7 @@
    "value": 3.88,
    "as_of": "2026-11-03",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"United States policy rate\" (USA.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"United States policy rate\" (USA.POLICY.RATE), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -2432,7 +2432,7 @@
    "value": 0.93,
    "as_of": "2026-11-03",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"United States real policy rate\" (USA.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"United States real policy rate\" (USA.POLICY.REAL), data as of 2026-11-03, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -2442,12 +2442,12 @@
    "iso3": "USA",
    "family": "PRICE",
    "unit": "percent",
-   "value": 2.95,
+   "value": 2.988,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"United States consumer price inflation\" (USA.PRICE.CPI_YOY), data as of period 2024 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"United States consumer price inflation\" (USA.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/USA.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   },
   {
    "series_id": "ZAF.FISCAL.DEBT_GDP",
@@ -2455,12 +2455,12 @@
    "iso3": "ZAF",
    "family": "FISCAL",
    "unit": "percent of GDP",
-   "value": 78.9,
+   "value": 81.706,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"South Africa general government debt\" (ZAF.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.FISCAL.DEBT_GDP.json",
+   "citation": "Global Financial Information, \"South Africa general government debt\" (ZAF.FISCAL.DEBT_GDP), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.FISCAL.DEBT_GDP.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.FISCAL.DEBT_GDP.json",
-   "definition": "General government gross debt as a share of GDP."
+   "definition": "General government gross debt, percent of GDP"
   },
   {
    "series_id": "ZAF.MACRO.GDP_GROWTH",
@@ -2468,12 +2468,12 @@
    "iso3": "ZAF",
    "family": "MACRO",
    "unit": "percent",
-   "value": 1.0,
+   "value": 1.289,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"South Africa real GDP growth\" (ZAF.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.MACRO.GDP_GROWTH.json",
+   "citation": "Global Financial Information, \"South Africa real GDP growth\" (ZAF.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.MACRO.GDP_GROWTH.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.MACRO.GDP_GROWTH.json",
-   "definition": "Real GDP growth, 12-month percent change, annual figure."
+   "definition": "Real GDP growth, annual percent change"
   },
   {
    "series_id": "ZAF.POLICY.RATE",
@@ -2484,7 +2484,7 @@
    "value": 7.25,
    "as_of": "2026-11-02",
    "coverage_tier": "secondary",
-   "citation": "Global Financial Information, \"South Africa policy rate\" (ZAF.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.POLICY.RATE.json",
+   "citation": "Global Financial Information, \"South Africa policy rate\" (ZAF.POLICY.RATE), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.POLICY.RATE.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.POLICY.RATE.json",
    "definition": "Central bank policy rate, upper bound where a corridor applies. A policy rate is not a market rate."
   },
@@ -2497,7 +2497,7 @@
    "value": 4.04,
    "as_of": "2026-11-02",
    "coverage_tier": "derived",
-   "citation": "Global Financial Information, \"South Africa real policy rate\" (ZAF.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.POLICY.REAL.json",
+   "citation": "Global Financial Information, \"South Africa real policy rate\" (ZAF.POLICY.REAL), data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.POLICY.REAL.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.POLICY.REAL.json",
    "definition": "Policy rate less latest annual consumer price inflation. Published only when both inputs sit inside an 18-month window."
   },
@@ -2507,13 +2507,13 @@
    "iso3": "ZAF",
    "family": "PRICE",
    "unit": "percent",
-   "value": 3.21,
+   "value": 3.792,
    "as_of": null,
    "coverage_tier": "indicator",
-   "citation": "Global Financial Information, \"South Africa consumer price inflation\" (ZAF.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.PRICE.CPI_YOY.json",
+   "citation": "Global Financial Information, \"South Africa consumer price inflation\" (ZAF.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.PRICE.CPI_YOY.json",
    "series_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/ZAF.PRICE.CPI_YOY.json",
-   "definition": "Consumer price inflation, 12-month percent change, annual national figure."
+   "definition": "Consumer price inflation, average consumer prices, annual percent change"
   }
  ],
- "generated_at": "2026-11-11T01:09:23+00:00"
+ "generated_at": "2026-11-13T15:52:22+00:00"
 }

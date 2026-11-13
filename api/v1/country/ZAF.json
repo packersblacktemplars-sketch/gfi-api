@@ -6,7 +6,7 @@
   "currency_code": "ZAR"
  },
  "data_as_of": "2026-11-02",
- "retrieved_at": "2026-11-11T01:09:23+00:00",
+ "retrieved_at": "2026-11-13T15:52:22+00:00",
  "blocks": {
   "state": {
    "status": "ok",
@@ -33,8 +33,8 @@
      "unit": "percent",
      "as_of": "2026-11-02",
      "period": "2025",
-     "source": "BIS WS_CBPOL (compilation of central bank policy rates)",
-     "source_status": "derived_from_unverified_pair",
+     "source": "Derived: BIS WS_CBPOL policy rate less IMF WEO April 2025 inflation",
+     "source_status": "derived_from_cited_pair",
      "coverage_tier": "derived",
      "comparability": "comparable",
      "prior_value": null,
@@ -44,12 +44,12 @@
     {
      "series_id": "ZAF.PRICE.CPI_YOY",
      "label": "Inflation",
-     "value": 3.21,
+     "value": 3.792,
      "unit": "percent",
      "as_of": null,
      "period": "2025",
-     "source": null,
-     "source_status": "unresolved",
+     "source": "IMF World Economic Outlook, April 2025 vintage, via DBnomics",
+     "source_status": "secondary_compilation",
      "coverage_tier": "indicator",
      "comparability": null,
      "prior_value": null,
@@ -59,12 +59,12 @@
     {
      "series_id": "ZAF.FISCAL.DEBT_GDP",
      "label": "Debt to GDP",
-     "value": 78.9,
+     "value": 81.706,
      "unit": "percent of GDP",
      "as_of": null,
      "period": "2026",
-     "source": null,
-     "source_status": "unresolved",
+     "source": "IMF World Economic Outlook, April 2025 vintage, via DBnomics",
+     "source_status": "secondary_compilation",
      "coverage_tier": "indicator",
      "comparability": null,
      "prior_value": null,
@@ -74,12 +74,12 @@
     {
      "series_id": "ZAF.MACRO.GDP_GROWTH",
      "label": "Real GDP growth",
-     "value": 1.0,
+     "value": 1.289,
      "unit": "percent",
      "as_of": null,
      "period": "2026",
-     "source": null,
-     "source_status": "unresolved",
+     "source": "IMF World Economic Outlook, April 2025 vintage, via DBnomics",
+     "source_status": "secondary_compilation",
      "coverage_tier": "indicator",
      "comparability": null,
      "prior_value": null,
@@ -119,6 +119,6 @@
    "cadence": "daily to monthly, per central bank"
   }
  ],
- "citation": "Global Financial Information, country packet \"South Africa\", data as of 2026-11-02, retrieved 2026-11-11. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/ZAF.json",
+ "citation": "Global Financial Information, country packet \"South Africa\", data as of 2026-11-02, retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/ZAF.json",
  "packet_url": "https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/country/ZAF.json"
 }
