@@ -1,6 +1,15 @@
 # Data defects disclosed with this release
 
-Published with the v1 API release on 2026-11-10.
+Published with the v1 API release on 2026-11-10. Revision published 2026-11-13.
+
+**Revision 2026-11-13, source attribution.** CPI, debt/GDP and GDP growth were
+previously shipped with `source_status: unresolved` and no named source. They are now
+re-sourced from a named vintage with a per-series URL: IMF World Economic Outlook,
+April 2025 vintage, via DBnomics, except euro-area HICP, which comes from Eurostat
+tec00118. 111 of 114 values changed. The previous unattributed reading is retained on
+each series as `latest.superseded_value`. Largest corrections: Argentina CPI 219.88 to
+35.91, Japan debt 204.4 to 233.73, Kuwait debt 22.3 to 10.77. No series now ships
+without a named source; `assert_professional_data.py` refuses any build that would.
 
 Measured against the live dataset `globalfinancialinfo/global-policy-rate-map` (39 countries,
 last modified 2026-11-09T15:07Z). None of these are API bugs; each is a defect in the map

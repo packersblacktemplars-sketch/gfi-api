@@ -41,7 +41,7 @@
  },
  "definition": "Real GDP growth, annual percent change",
  "data_as_of": null,
- "retrieved_at": "2026-11-13T15:52:22+00:00",
+ "retrieved_at": "2026-11-13T15:53:58+00:00",
  "citation": "Global Financial Information, \"Czech Republic real GDP growth\" (CZE.MACRO.GDP_GROWTH), data as of period 2026 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CZE.MACRO.GDP_GROWTH.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {

@@ -41,7 +41,7 @@
  },
  "definition": "Consumer price inflation, average consumer prices, annual percent change",
  "data_as_of": null,
- "retrieved_at": "2026-11-13T15:52:22+00:00",
+ "retrieved_at": "2026-11-13T15:53:58+00:00",
  "citation": "Global Financial Information, \"Switzerland consumer price inflation\" (CHE.PRICE.CPI_YOY), data as of period 2025 (annual), retrieved 2026-11-13. https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-map/resolve/main/api/v1/series/CHE.PRICE.CPI_YOY.json",
  "license": "CC BY 4.0 with attribution. Redistribution of derived tables permitted.",
  "revisions": {

@@ -5,7 +5,7 @@ Base: `https://huggingface.co/datasets/globalfinancialinfo/global-policy-rate-ma
 Free to cite, paid to compute with. No key, no sign-up, no rate limit: every series level
 with its unit, as-of date, source status, coverage tier and a finished citation string.
 
-Data as of 2026-11-05. Surface generated 2026-11-13T15:52:22+00:00.
+Data as of 2026-11-05. Surface generated 2026-11-13T15:53:58+00:00.
 
 ## What is here
 
